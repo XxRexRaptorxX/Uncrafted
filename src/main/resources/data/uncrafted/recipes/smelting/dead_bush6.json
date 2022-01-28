@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:acacia_sapling"
+  },
+
+  "result": "minecraft:dead_bush",
+  "experience": 0,
+  "cookingTime": 80
+}

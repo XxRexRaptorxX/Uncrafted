@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_sapling"
+  },
+
+  "result": "minecraft:dead_bush",
+  "experience": 0,
+  "cookingTime": 80
+}

@@ -1,0 +1,28 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XOX",
+    "O#O",
+    "XOX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "O": {
+      "item": "minecraft:porkchop"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:hoglin_spawn_egg"
+  }
+}

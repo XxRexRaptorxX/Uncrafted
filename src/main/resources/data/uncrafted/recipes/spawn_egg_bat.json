@@ -1,0 +1,25 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    " X ",
+    "X#X",
+    " X "
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:feather"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:bat_spawn_egg"
+  }
+}

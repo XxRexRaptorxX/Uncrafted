@@ -1,0 +1,16 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "group": "totem",
+  "ingredients": [
+    {
+      "item": "minecraft:repeating_command_block"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:totem_of_undying"
+  }
+}

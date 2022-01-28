@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:guardian_spawn_egg"
+  }
+}

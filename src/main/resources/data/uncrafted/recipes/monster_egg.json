@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "monster_egg",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:stone"
+    },
+    {
+    "item": "minecraft:silverfish_spawn_egg"
+    }
+    
+  ],
+  "result": {
+    "item": "minecraft:infested_stone"
+  }
+}

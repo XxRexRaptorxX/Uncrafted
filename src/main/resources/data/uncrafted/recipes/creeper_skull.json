@@ -1,0 +1,16 @@
+{
+
+  "type": "minecraft:crafting_shapeless", 
+  "ingredients": [
+    {
+      "item": "minecraft:creeper_spawn_egg"
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "minecraft:creeper_head"
+  }
+}

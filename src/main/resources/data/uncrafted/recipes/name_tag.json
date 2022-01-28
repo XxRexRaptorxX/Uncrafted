@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "#  ",
+    " XX"
+  ],
+  
+  "key": {
+    "#": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "X": {
+      "item": "minecraft:paper"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:name_tag"
+  }
+}

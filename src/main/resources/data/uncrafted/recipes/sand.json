@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/yellow"
+    },
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sand"
+  }
+}

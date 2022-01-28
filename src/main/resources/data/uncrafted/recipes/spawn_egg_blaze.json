@@ -1,0 +1,28 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XOX",
+    "O#O",
+    "XOX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:blaze_powder"
+    },
+    "O": {
+      "item": "minecraft:blaze_rod"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:blaze_spawn_egg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "structure_void",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:structure_block"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    }
+    
+    
+  ],
+  "result": {
+    "item": "minecraft:structure_void"
+    }
+}

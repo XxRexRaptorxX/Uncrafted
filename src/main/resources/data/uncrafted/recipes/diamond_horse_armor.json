@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X",
+    "##",
+    "OO"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "#": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "O": {
+      "item": "minecraft:diamond_leggings"
+    }     
+  },
+  
+  
+  "result": {
+    "item": "minecraft:diamond_horse_armor"
+  }
+}

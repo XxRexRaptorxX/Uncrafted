@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "X O"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:water_bucket"
+    },
+    "O": {
+      "item": "minecraft:lava_bucket"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:cobblestone"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    " X ",
+    "X#X",
+    " X "
+  ],
+  
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "X": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:nether_star"
+  }
+}

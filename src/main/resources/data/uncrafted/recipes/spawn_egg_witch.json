@@ -1,0 +1,34 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XIZ",
+    "O#O",
+    "ZIX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:glass_bottle"
+    },
+    "I": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "Z": {
+      "item": "minecraft:sugar"
+    },
+    "O": {
+      "item": "minecraft:nether_wart"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:witch_spawn_egg"
+  }
+}

@@ -1,0 +1,24 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:iron_bars"
+    },
+    "#": {
+      "item": "minecraft:nether_star"
+    }  
+  },
+  
+  
+  "result": {
+    "item": "minecraft:spawner"
+  }
+}

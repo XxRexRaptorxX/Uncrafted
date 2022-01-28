@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "O#O",
+    "#X#",
+    "O#O"
+  ],
+  
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "O": {
+      "item": "minecraft:blaze_powder"
+    },
+    "X": {
+      "item": "minecraft:glass_bottle"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:experience_bottle"
+  }
+}

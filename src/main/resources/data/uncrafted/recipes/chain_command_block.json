@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chain_command_block",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:command_block"
+    },
+    {
+      "tag": "forge:dyes/green"
+    }
+    
+    
+  ],
+  "result": {
+    "item": "minecraft:chain_command_block"
+  }
+}

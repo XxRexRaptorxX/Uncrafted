@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "XX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:coarse_dirt"
+      
+    },
+    "#": {
+      "item": "minecraft:dirt"
+    }    
+  },
+  
+  
+  "result": {
+    "item": "minecraft:dirt_path",
+    "count": 4
+  }
+}

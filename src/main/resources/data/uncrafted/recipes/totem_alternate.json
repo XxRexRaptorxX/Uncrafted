@@ -1,0 +1,18 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    }
+  ],
+  
+  
+  "result": {
+    "item": "minecraft:totem_of_undying"
+  }
+}

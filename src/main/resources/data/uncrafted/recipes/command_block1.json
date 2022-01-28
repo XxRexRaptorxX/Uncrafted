@@ -1,0 +1,19 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "group": "command_block",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:chain_command_block"
+    },
+    {
+      "tag": "forge:dyes/orange"
+    }
+    
+    
+  ],
+  "result": {
+    "item": "minecraft:command_block"
+  }
+}
