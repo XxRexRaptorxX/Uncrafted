@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[38,)"
+loaderVersion="[41,)"
 license="All Fights reserved"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted/issues"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted"
@@ -19,13 +19,13 @@ A simple Mod which adds Crafting and Smelting recipes, to make blocks and items,
 [[dependencies.uncrafted]]
     modId="forge"
     mandatory=true
-    versionRange="[38,)"
+    versionRange="[41,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.uncrafted]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18,1.19)"
+    versionRange="[1.19,1.20)"
     ordering="NONE"
     side="BOTH"
