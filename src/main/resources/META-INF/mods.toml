@@ -1,12 +1,12 @@
 modLoader="javafml"
 loaderVersion="[41,)"
-license="All Fights reserved"
+license="All Rights reserved"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted/issues"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted"
 
 [[mods]]
 modId="uncrafted"
-version="4.0.0pre1"
+version="4.0.0"
 displayName="Uncrafted"
 itemIcon="minecraft:crafting_table"
 logoFile="logo.png"
