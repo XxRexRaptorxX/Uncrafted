@@ -17,13 +17,14 @@ public class Uncrafted {
 
     public static final String NAME = "Uncrafted";
     public static final String MODID = "uncrafted";
-    private static final Logger LOGGER = LogManager.getLogger();
+
+    public static final Logger LOGGER = LogManager.getLogger();
 
 
     public Uncrafted() {
+
         //Config
-        //ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.CLIENT_CONFIG);
-        //ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, Config.SERVER_CONFIG);
+        Config.init();
 
         //Events
         MinecraftForge.EVENT_BUS.register(this);
