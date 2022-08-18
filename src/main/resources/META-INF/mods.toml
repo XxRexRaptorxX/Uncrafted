@@ -2,13 +2,14 @@ modLoader="javafml"
 loaderVersion="[41,)"
 license="All Rights reserved"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted/issues"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted"
 
 [[mods]]
 modId="uncrafted"
 version="4.0.0"
 displayName="Uncrafted"
 itemIcon="minecraft:crafting_table"
+updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Uncrafted.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted"
 logoFile="logo.png"
 authors="XxRexRaptorxX (RexRaptor)"
 description='''
