@@ -1,15 +1,25 @@
 {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
 
-  "type": "minecraft:crafting_shapeless",
-  "group": "totem",
-  "ingredients": [
-    {
-      "item": "minecraft:command_block"
-    },
-    {
-      "item": "minecraft:dragon_head"
-    }
+    "X#X",
+    "#O#",
+    " # "
   ],
+
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "X": {
+      "tag": "forge:gems/emerald"
+    },
+    "O": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+
+
   "result": {
     "item": "minecraft:totem_of_undying"
   }

@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
     "XXX",
-    "XXX"
+    "###",
+    "###"
   ],
   
   "key": {
     "X": {
-      "item": "minecraft:dirt"
-      
+      "item": "minecraft:sculk"
     },
     "#": {
-      "tag": "forge:mushrooms"
+      "item": "minecraft:end_stone"
+      
     }    
   },
   
   
   "result": {
-    "item": "minecraft:mycelium"
+    "item": "minecraft:sculk_catalyst"
   }
 }

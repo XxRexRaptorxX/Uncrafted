@@ -1,22 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "###",
     "XXX",
-    "XOX",
     "XXX"
   ],
   
   "key": {
     "X": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:netherrack"
+      
     },
-    "O": {
-      "item": "minecraft:golden_apple"
+    "#": {
+      "item": "minecraft:warped_roots"
     }    
   },
   
   
   "result": {
-    "item": "minecraft:enchanted_golden_apple"
+    "item": "minecraft:warped_nylium"
   }
 }

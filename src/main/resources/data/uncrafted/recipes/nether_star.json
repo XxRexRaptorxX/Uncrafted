@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
   
-    " X ",
-    "X#X",
-    " X "
+    " # ",
+    "#X#",
+    " # "
   ],
   
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:netherite_scrap"
     },
     "X": {
       "item": "minecraft:ghast_tear"

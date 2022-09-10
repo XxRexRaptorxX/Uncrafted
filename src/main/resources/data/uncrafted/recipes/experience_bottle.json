@@ -9,7 +9,7 @@
   
   "key": {
     "#": {
-      "item": "minecraft:gold_nugget"
+      "tag": "forge:nuggets/gold"
     },
     "O": {
       "item": "minecraft:blaze_powder"

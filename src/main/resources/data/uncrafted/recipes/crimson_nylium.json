@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "mycelium",
   "pattern": [
     "###",
     "XXX",
@@ -9,16 +8,16 @@
   
   "key": {
     "X": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:netherrack"
       
     },
     "#": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:crimson_roots"
     }    
   },
   
   
   "result": {
-    "item": "minecraft:mycelium"
+    "item": "minecraft:crimson_nylium"
   }
 }
