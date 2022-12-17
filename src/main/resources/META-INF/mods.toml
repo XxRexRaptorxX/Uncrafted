@@ -1,11 +1,11 @@
 modLoader="javafml"
-loaderVersion="[41,)"
+loaderVersion="[44,)"
 license="All Rights reserved"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted/issues"
 
 [[mods]]
 modId="uncrafted"
-version="4.1.0"
+version="4.1.1"
 displayName="Uncrafted"
 itemIcon="minecraft:crafting_table"
 updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Uncrafted.json"
@@ -20,13 +20,13 @@ A simple Mod which adds Crafting and Smelting recipes, to make blocks and items,
 [[dependencies.uncrafted]]
     modId="forge"
     mandatory=true
-    versionRange="[41,)"
+    versionRange="[44,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.uncrafted]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19,1.20)"
+    versionRange="[1.19.3,1.20)"
     ordering="NONE"
     side="BOTH"
