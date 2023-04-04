@@ -5,7 +5,7 @@ issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted/issues"
 
 [[mods]]
 modId="uncrafted"
-version="4.1.1"
+version="4.1.2"
 displayName="Uncrafted"
 itemIcon="minecraft:crafting_table"
 updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Uncrafted.json"
