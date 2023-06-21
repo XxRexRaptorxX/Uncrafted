@@ -13,7 +13,7 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/uncrafted"
 logoFile="logo.png"
 #credits=""
 authors="${mod_authors}"
-description='''A simple Mod which adds Crafting and Smelting recipes, to make blocks and items, that are uncraftable.'''
+description='''A simple mod which adds crafting and smelting recipes, to make blocks and items, that are uncraftable.'''
 
 
 [[dependencies.${mod_id}]]
