@@ -1,0 +1,16 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "minecraft:piglin_head"
+  }
+}

@@ -3,11 +3,14 @@
   "type": "minecraft:crafting_shapeless", 
   "ingredients": [
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:wither_skeleton_spawn_egg"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "data": 0
     }
   ],
   "result": {
-    "item": "minecraft:string",
-    "count": 4
+    "item": "minecraft:wither_skeleton_skull"
   }
 }
