@@ -1,7 +1,6 @@
 package xxrexraptorxx.main;
 
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import xxrexraptorxx.util.Config;

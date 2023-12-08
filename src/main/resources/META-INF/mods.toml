@@ -17,7 +17,7 @@ description='''A simple mod which adds crafting and smelting recipes, to make bl
 
 
 [[dependencies.${mod_id}]]
-modId="forge"
+modId="neoforge"
 mandatory=true
 versionRange="${forge_version_range}"
 ordering="NONE"

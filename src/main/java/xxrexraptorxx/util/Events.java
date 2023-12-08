@@ -3,7 +3,9 @@ package xxrexraptorxx.util;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -13,12 +15,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.VersionChecker;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.VersionChecker;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.event.TickEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import xxrexraptorxx.main.References;
 import xxrexraptorxx.main.Uncrafted;
 
@@ -41,8 +43,11 @@ public class Events {
                 if (VersionChecker.getResult(ModList.get().getModContainerById(References.MODID).get().getModInfo()).status() == VersionChecker.Status.OUTDATED ||
                         VersionChecker.getResult(ModList.get().getModContainerById(References.MODID).get().getModInfo()).status() == VersionChecker.Status.BETA_OUTDATED ) {
 
+                    MutableComponent url = Component.literal(ChatFormatting.GREEN + "Click here to update!");
+                    url.withStyle(url.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, References.URL)));
+
                     Minecraft.getInstance().player.displayClientMessage(Component.literal(ChatFormatting.BLUE + "A newer version of " + ChatFormatting.YELLOW + References.NAME + ChatFormatting.BLUE + " is available!"), false);
-                    Minecraft.getInstance().player.displayClientMessage(Component.literal(ChatFormatting.GRAY + References.URL), false);
+                    Minecraft.getInstance().player.displayClientMessage(url, false);
 
                     hasShownUp = true;
 
