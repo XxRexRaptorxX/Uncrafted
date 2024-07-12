@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    "OXO",
+    "XOX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:obsidian"
+    },
+    "O": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:crying_obsidian",
+    "cound": 4
+  }
+}

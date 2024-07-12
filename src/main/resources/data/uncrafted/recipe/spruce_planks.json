@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/gray"
+    },
+    {  
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:spruce_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:saplings"
+  },
+
+  "result": {
+    "id": "minecraft:dead_bush"
+  },
+  "experience": 0,
+  "cookingTime": 40
+}

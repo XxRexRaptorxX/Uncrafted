@@ -1,0 +1,22 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "record",
+  "pattern": [
+  
+    " X ",
+    "XXX",
+    " X "
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:black_terracotta"
+    }
+  },
+  
+  
+  "result": {
+    "id": "minecraft:music_disc_11"
+  }
+}

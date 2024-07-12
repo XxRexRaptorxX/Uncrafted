@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_gravel"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:dirt"
+      
+    },
+    "#": {
+      "tag": "c:mushrooms"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:mycelium"
+  }
+}

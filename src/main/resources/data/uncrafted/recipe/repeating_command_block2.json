@@ -1,0 +1,19 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "group": "repeating_command_block",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:command_block"
+    },
+    {
+      "tag": "c:dyes/purple"
+    }
+    
+    
+  ],
+  "result": {
+    "id": "minecraft:repeating_command_block"
+  }
+}

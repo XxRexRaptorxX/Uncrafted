@@ -1,0 +1,25 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:turtle_scute"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:turtle_spawn_egg"
+  }
+}

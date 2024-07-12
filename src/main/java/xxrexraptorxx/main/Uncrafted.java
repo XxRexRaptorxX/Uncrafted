@@ -1,5 +1,6 @@
 package xxrexraptorxx.main;
 
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,9 +16,8 @@ public class Uncrafted {
     public static final Logger LOGGER = LogManager.getLogger();
 
 
-    public Uncrafted() {
-        //Config
-        Config.init();
+    public Uncrafted(ModContainer container) {
+        Config.init(container);
     }
 
 

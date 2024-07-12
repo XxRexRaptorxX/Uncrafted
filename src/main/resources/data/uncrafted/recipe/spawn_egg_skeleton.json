@@ -1,0 +1,25 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:bone"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:skeleton_spawn_egg"
+  }
+}

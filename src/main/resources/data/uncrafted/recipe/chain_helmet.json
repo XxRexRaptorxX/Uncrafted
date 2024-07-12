@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "X X"
+  ],
+  
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "X": {
+      "tag": "c:ingots/iron"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:chainmail_helmet"
+  }
+}

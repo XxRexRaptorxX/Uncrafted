@@ -1,0 +1,28 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XXX",
+    "O#O",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:sand"
+    },
+    "O": {
+      "item": "minecraft:suspicious_sand"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:camel_spawn_egg"
+  }
+}

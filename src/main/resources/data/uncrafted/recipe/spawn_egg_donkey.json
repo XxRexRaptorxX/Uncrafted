@@ -1,0 +1,28 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    " X ",
+    "O#O",
+    " X "
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:chest"
+    },
+    "O": {
+      "item": "minecraft:saddle"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:donkey_spawn_egg"
+  }
+}

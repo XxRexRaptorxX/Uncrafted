@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "###",
+    "###"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:sculk"
+    },
+    "#": {
+      "item": "minecraft:end_stone"
+      
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:sculk_catalyst"
+  }
+}

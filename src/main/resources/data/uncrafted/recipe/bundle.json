@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "X#X",
+    "# #",
+    "###"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:bundle"
+  }
+}

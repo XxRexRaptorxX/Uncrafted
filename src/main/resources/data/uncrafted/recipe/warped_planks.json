@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/green"
+    },
+    {  
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:warped_planks"
+  }
+}

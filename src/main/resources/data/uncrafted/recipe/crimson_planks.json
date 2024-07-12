@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/purple"
+    },
+    {  
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:crimson_planks"
+  }
+}

@@ -1,0 +1,31 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XIX",
+    "O#O",
+    "XIX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:stone_bricks"
+    },
+    "I": {
+      "item": "minecraft:cobblestone"
+    },
+    "O": {
+      "item": "minecraft:stone"
+    },
+    "#": {
+      "item": "minecraft:ghast_tear"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:silverfish_spawn_egg"
+  }
+}

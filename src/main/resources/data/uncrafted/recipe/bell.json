@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "###",
+    "# #"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "tag": "c:ingots/copper"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:bell"
+  }
+}

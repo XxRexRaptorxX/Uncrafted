@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "X#X",
+    "#O#",
+    " # "
+  ],
+
+  "key": {
+    "#": {
+      "tag": "c:ingots/gold"
+    },
+    "X": {
+      "tag": "c:gems/emerald"
+    },
+    "O": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+
+
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+}

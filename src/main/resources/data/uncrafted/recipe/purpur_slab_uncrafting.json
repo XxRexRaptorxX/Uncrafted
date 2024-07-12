@@ -1,0 +1,16 @@
+{
+
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+  
+    {
+      "item": "minecraft:purpur_pillar"
+    }
+    
+    
+  ],
+  "result": {
+    "id": "minecraft:purpur_slab",
+    "count": 2
+  }
+}

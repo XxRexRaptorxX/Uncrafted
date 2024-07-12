@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " I ",
+    " I "
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:diamond_sword",
+      "data": 0
+    },
+    "I": {
+      "item": "minecraft:prismarine_shard"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:trident"
+  }
+}

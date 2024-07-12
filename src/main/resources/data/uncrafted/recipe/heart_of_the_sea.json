@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:elder_guardian_spawn_egg"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+    
+    
+  ],
+  "result": {
+    "id": "minecraft:heart_of_the_sea"
+  }
+}

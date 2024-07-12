@@ -1,0 +1,21 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "structure_block",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    },
+    "O": {
+      "item": "minecraft:repeating_command_block"
+    }    
+  },
+  "result": {
+    "id": "minecraft:structure_block"
+  }
+}

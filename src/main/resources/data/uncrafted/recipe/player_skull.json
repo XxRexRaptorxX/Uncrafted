@@ -1,0 +1,16 @@
+{
+
+  "type": "minecraft:crafting_shapeless", 
+  "ingredients": [
+    {
+      "item": "minecraft:wandering_trader_spawn_egg"
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "data": 0
+    }
+  ],
+  "result": {
+    "id": "minecraft:player_head"
+  }
+}

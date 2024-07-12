@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "# #",
+    "# #"
+  ],
+  
+  "key": {
+     "#": [
+      {
+        "tag": "minecraft:wool"
+      }
+    ],
+    "X": {
+      "item": "minecraft:netherite_scrap"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:elytra"
+  }
+}

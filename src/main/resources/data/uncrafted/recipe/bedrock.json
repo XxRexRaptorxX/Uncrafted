@@ -1,0 +1,24 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:obsidian"
+    },
+    "#": {
+      "item": "minecraft:structure_void"
+    }
+  },
+  
+  
+  "result": {
+    "id": "minecraft:bedrock"
+  }
+}
