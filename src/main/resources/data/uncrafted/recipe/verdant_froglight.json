@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ink_sac"
+      "tag": "c:dyes/lime"
     },
     {
-      "tag": "c:dusts/glowstone"
+      "item": "minecraft:ochre_froglight"
     }
   ],
   "result": {
-    "id": "minecraft:glow_ink_sac"
+    "id": "minecraft:verdant_froglight"
   }
 }

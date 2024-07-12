@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dyes/purple"
+    },
+    {
+      "item": "minecraft:verdant_froglight"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pearlescent_froglight"
+  }
+}

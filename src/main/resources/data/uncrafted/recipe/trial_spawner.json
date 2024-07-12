@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:spawner"
     },
     {
-      "tag": "c:dusts/glowstone"
+      "item": "minecraft:trial_key"
     }
   ],
   "result": {
-    "id": "minecraft:glow_ink_sac"
+    "id": "minecraft:trial_spawner"
   }
 }

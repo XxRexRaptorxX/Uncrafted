@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:brown_mushroom_block"
     },
     {
-      "tag": "c:dusts/glowstone"
+      "tag": "c:dyes/white"
     }
   ],
   "result": {
-    "id": "minecraft:glow_ink_sac"
+    "id": "minecraft:mushroom_stem"
   }
 }

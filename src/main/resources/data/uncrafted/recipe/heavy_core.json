@@ -1,0 +1,28 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+  
+    "XIX",
+    "I#I",
+    "XIX"
+  ],
+  
+  "key": {
+    "X": {
+      "tag": "c:ingots/netherite"
+    },
+    "I": {
+      "item": "minecraft:dripstone_block"
+    },
+    "#": {
+      "item": "minecraft:end_crystal"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:heavy_core"
+  }
+}

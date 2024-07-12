@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X",
+    "X#"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:dead_bush"
+      
+    },
+    "#": {
+      "item": "minecraft:dirt"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:rooted_dirt"
+  }
+}

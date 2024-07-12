@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X",
+    "X#"
+  ],
+  
+  "key": {
+    "X": {
+      "tag": "minecraft:smelts_to_glass"
+      
+    },
+    "#": {
+      "item": "minecraft:dirt"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "minecraft:mud",
+    "count": 4
+  }
+}

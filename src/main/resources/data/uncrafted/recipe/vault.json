@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#I#",
+    "-X-",
+    "#I#"
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:trial_spawner"
+    },
+    "I": {
+      "item": "minecraft:dropper"
+    },
+    "#": {
+      "tag": "c:ingots/iron"
+    },
+    "-": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  
+  
+  "result": {
+    "id": "minecraft:vault"
+  }
+}

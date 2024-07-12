@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless", 
   "ingredients": [
     {
-      "item": "minecraft:creeper_spawn_egg"
+      "item": "minecraft:zombie_spawn_egg"
     },
     {
       "item": "minecraft:diamond_sword",
@@ -11,6 +11,6 @@
     }
   ],
   "result": {
-    "id": "minecraft:creeper_head"
+    "id": "minecraft:zombie_head"
   }
 }
