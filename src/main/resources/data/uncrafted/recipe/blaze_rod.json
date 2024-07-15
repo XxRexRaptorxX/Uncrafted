@@ -1,0 +1,18 @@
+{
+
+  "type": "minecraft:crafting_shapeless", 
+  "ingredients": [
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "tag": "c:rods/breeze"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    }
+  ],
+  "result": {
+    "id": "minecraft:blaze_rod"
+  }
+}
