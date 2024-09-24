@@ -9,11 +9,11 @@
   "key": {
      "#": [
       {
-        "tag": "minecraft:wool"
+        "item": "minecraft:phantom_membrane"
       }
     ],
     "X": {
-      "item": "minecraft:netherite_scrap"
+      "tag": "c:ingots/netherite"
     }    
   },
   
