@@ -17,7 +17,7 @@
       "item": "minecraft:dripstone_block"
     },
     "#": {
-      "item": "minecraft:end_crystal"
+      "tag": "c:nether_stars"
     }    
   },
   

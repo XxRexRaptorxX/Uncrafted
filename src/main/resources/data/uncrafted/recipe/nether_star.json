@@ -9,10 +9,10 @@
   
   "key": {
     "#": {
-      "item": "minecraft:netherite_scrap"
+      "tag": "c:storage_blocks/netherite"
     },
     "X": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:end_crystal"
     }    
   },
   

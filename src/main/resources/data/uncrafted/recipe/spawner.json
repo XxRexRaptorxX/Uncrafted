@@ -4,16 +4,19 @@
   "pattern": [
   
     "XXX",
-    "X#X",
+    "#O#",
     "XXX"
   ],
   
   "key": {
     "X": {
-      "item": "minecraft:iron_bars"
+      "tag": "c:ingots/netherite"
     },
     "#": {
-      "item": "minecraft:nether_star"
+      "item": "minecraft:heavy_core"
+    },
+    "O": {
+      "tag": "c:nether_stars"
     }  
   },
   
