@@ -2,14 +2,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:elder_guardian_spawn_egg"
+      "item": "minecraft:nautilus_shell"
     },
     {
       "tag": "c:nether_stars"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "minecraft:elder_guardian_spawn_egg"
     }
-    
-    
   ],
+
   "result": {
     "id": "minecraft:heart_of_the_sea"
   }
