@@ -1,23 +1,16 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XXX",
     "X#X",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:magma_cream"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:magma_cream",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:magma_cube_spawn_egg"

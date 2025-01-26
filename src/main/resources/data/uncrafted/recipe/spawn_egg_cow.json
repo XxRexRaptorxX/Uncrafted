@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XOX",
     "O#O",
     "XOX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:leather"
-    },
-    "O": {
-      "item": "minecraft:beef"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:leather",
+    "O": "minecraft:beef",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:cow_spawn_egg"

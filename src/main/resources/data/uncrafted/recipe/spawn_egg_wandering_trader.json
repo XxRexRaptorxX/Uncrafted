@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XOX",
     "O#O",
     "XOX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:emerald"
-    },
-    "O": {
-      "item": "minecraft:gold_nugget"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:emerald",
+    "O": "minecraft:gold_nugget",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:wandering_trader_spawn_egg"

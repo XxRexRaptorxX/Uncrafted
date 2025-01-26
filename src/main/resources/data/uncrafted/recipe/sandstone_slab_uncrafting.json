@@ -2,12 +2,8 @@
 
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-  
-    {
-      "item": "minecraft:chiseled_sandstone"
-    }
+    "minecraft:chiseled_sandstone"
   ],
-  
   
   "result": {
     "id": "minecraft:sandstone_slab",

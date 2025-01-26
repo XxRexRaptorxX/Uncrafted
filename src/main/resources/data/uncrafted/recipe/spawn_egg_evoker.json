@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XOX",
     "X#X",
     "XOX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:enchanted_book"
-    },
-    "O": {
-      "item": "minecraft:emerald"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:enchanted_book",
+    "O": "minecraft:emerald",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:evoker_spawn_egg"

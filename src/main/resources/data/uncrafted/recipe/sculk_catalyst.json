@@ -7,15 +7,10 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:sculk"
-    },
-    "#": {
-      "item": "minecraft:end_stone"
+    "X": "minecraft:sculk",
+    "#": "minecraft:end_stone"
       
-    }    
   },
-  
   
   "result": {
     "id": "minecraft:sculk_catalyst"

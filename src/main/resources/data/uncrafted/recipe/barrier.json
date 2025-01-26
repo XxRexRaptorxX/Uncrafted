@@ -1,19 +1,13 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "##",
     "##"
-
   ],
   
   "key": {
-    "#": {
-      "item": "minecraft:structure_void" 
-    }    
+    "#": "minecraft:structure_void"
   },
-  
   
   "result": {
     "id": "minecraft:barrier"

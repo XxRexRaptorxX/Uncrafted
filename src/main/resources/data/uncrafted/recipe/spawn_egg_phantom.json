@@ -1,23 +1,16 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     " X ",
     "X#X",
     " X "
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:phantom_membrane",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:phantom_spawn_egg"

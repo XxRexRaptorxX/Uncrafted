@@ -1,29 +1,18 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XIX",
     "O#O",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:emerald"
-    },
-    "O": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "I": {
-      "item": "minecraft:saddle"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:emerald",
+    "O": "minecraft:rotten_flesh",
+    "I": "minecraft:saddle",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:ravager_spawn_egg"

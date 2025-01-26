@@ -1,29 +1,18 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "IXO",
     "X#X",
     "OXI"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:bone"
-    },
-    "O": {
-      "item": "minecraft:brown_mushroom"
-    },
-    "I": {
-      "item": "minecraft:red_mushroom"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:bone",
+    "O": "minecraft:brown_mushroom",
+    "I": "minecraft:red_mushroom",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:bogged_spawn_egg"

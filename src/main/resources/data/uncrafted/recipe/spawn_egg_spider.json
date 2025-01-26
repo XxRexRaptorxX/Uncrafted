@@ -2,24 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "OXO",
     "X#X",
     "OXO"
   ],
   
   "key": {
-    "O": {
-      "item": "minecraft:cobweb"
-    },
-    "X": {
-      "item": "minecraft:spider_eye"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "O": "minecraft:cobweb",
+    "X": "minecraft:spider_eye",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:spider_spawn_egg"

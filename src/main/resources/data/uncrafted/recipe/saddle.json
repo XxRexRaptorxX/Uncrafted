@@ -5,14 +5,9 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:leather"
-    },
-    "#": {
-      "item": "minecraft:leather_chestplate"
-    }    
+    "X": "minecraft:leather",
+    "#": "minecraft:leather_chestplate"
   },
-  
   
   "result": {
     "id": "minecraft:saddle"

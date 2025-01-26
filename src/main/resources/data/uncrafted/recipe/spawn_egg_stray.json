@@ -2,24 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XXX",
     "O#O",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:bone"
-    },
-    "O": {
-      "item": "minecraft:bow"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:bone",
+    "O": "minecraft:bow",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:stray_spawn_egg"

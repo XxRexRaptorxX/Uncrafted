@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     " X ",
     "Y#Y",
     " X "
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:cod"
-    },
-    "Y": {
-      "item": "minecraft:salmon"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:cod",
+    "Y": "minecraft:salmon",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:cat_spawn_egg"

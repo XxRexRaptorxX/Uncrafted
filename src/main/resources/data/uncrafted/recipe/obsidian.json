@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "O",
     " ",
     "X"
   ],
   
   "key": {
-    "O": {
-      "item": "minecraft:water_bucket"
-    },
-    "X": {
-      "item": "minecraft:lava_bucket"
-    }    
+    "O": "minecraft:water_bucket",
+    "X": "minecraft:lava_bucket"
   },
-  
   
   "result": {
     "id": "minecraft:obsidian"

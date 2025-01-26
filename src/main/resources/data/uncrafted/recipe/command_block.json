@@ -1,5 +1,4 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "command_block",
   "pattern": [
@@ -8,16 +7,11 @@
     "#I#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_block"
-    },
-    "O": {
-      "item": "minecraft:diamond_block"
-    },
-    "I": {
-      "item": "minecraft:beacon"
-    }    
+    "#": "minecraft:redstone_block",
+    "O": "minecraft:diamond_block",
+    "I": "minecraft:beacon"
   },
+
   "result": {
     "id": "minecraft:command_block"
   }

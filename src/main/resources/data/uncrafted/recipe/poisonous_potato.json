@@ -10,9 +10,7 @@
       },
       "items": "minecraft:potion"
     },
-    {
-      "item": "minecraft:potato"
-    }
+    "minecraft:potato"
   ],
   "result": {
     "id": "minecraft:poisonous_potato"

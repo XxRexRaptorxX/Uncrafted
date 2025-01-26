@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XIX",
     "I#I",
     "XIX"
   ],
   
   "key": {
-    "X": {
-      "tag": "c:ingots/netherite"
-    },
-    "I": {
-      "item": "minecraft:dripstone_block"
-    },
-    "#": {
-      "tag": "c:nether_stars"
-    }    
+    "X": "#c:ingots/netherite",
+    "I": "minecraft:dripstone_block",
+    "#": "#c:nether_stars"
   },
-  
   
   "result": {
     "id": "minecraft:heavy_core"

@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "OXO",
     "O#O",
     "OXO"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:emerald"
-    },
-    "O": {
-      "item": "minecraft:crossbow"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:emerald",
+    "O": "minecraft:crossbow",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:pillager_spawn_egg"

@@ -7,17 +7,10 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:iron_helmet"
-    },
-    "#": {
-      "item": "minecraft:iron_chestplate"
-    },
-    "O": {
-      "item": "minecraft:iron_leggings"
-    }     
+    "X": "minecraft:iron_helmet",
+    "#": "minecraft:iron_chestplate",
+    "O": "minecraft:iron_leggings"
   },
-  
   
   "result": {
     "id": "minecraft:iron_horse_armor"

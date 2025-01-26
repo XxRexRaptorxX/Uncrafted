@@ -2,22 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "group": "dragon_breath",
   "ingredients": [
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:dragon_head"
-    }
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle",
+    "minecraft:dragon_head"
   ],
+
   "result": {
     "id": "minecraft:dragon_breath",
     "count": 4

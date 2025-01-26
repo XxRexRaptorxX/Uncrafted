@@ -1,21 +1,14 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "X",
     "O"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:carved_pumpkin"
-    },
-    "O": {
-      "tag": "minecraft:candles"
-    }    
+    "X": "minecraft:carved_pumpkin",
+    "O": "#minecraft:candles"
   },
-  
   
   "result": {
     "id": "minecraft:jack_o_lantern"

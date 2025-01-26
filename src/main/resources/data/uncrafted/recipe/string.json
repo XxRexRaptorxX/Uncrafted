@@ -1,11 +1,9 @@
 {
-
-  "type": "minecraft:crafting_shapeless", 
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:cobweb"
-    }
+    "minecraft:cobweb"
   ],
+
   "result": {
     "id": "minecraft:string",
     "count": 4

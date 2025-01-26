@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "X",
     "#",
     "X"
   ],
   
   "key": {
-    "X": {
-      "tag": "c:gems/diamond"
-    },
-    "#": {
-      "item": "minecraft:stick"
-    }
+    "X": "#c:gems/diamond",
+    "#": "minecraft:stick"
   },
-  
   
   "result": {
     "id": "minecraft:debug_stick"

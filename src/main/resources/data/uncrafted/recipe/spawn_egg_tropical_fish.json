@@ -1,23 +1,16 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     " X ",
     "X#X",
     " X "
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:tropical_fish"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:tropical_fish",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:tropical_fish_spawn_egg"

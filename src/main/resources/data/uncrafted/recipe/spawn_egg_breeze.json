@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XOX",
     "O#O",
     "XOX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:wind_charge"
-    },
-    "O": {
-      "item": "minecraft:breeze_rod"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:wind_charge",
+    "O": "minecraft:breeze_rod",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:breeze_spawn_egg"

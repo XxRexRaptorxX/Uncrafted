@@ -1,17 +1,11 @@
 {
-
-  "type": "minecraft:crafting_shapeless", 
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:wind_charge"
-    },
-    {
-      "tag": "c:rods/blaze"
-    },
-    {
-      "item": "minecraft:wind_charge"
-    }
+    "minecraft:wind_charge",
+    "#c:rods/blaze",
+    "minecraft:wind_charge"
   ],
+
   "result": {
     "id": "minecraft:breeze_rod"
   }

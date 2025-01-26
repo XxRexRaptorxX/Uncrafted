@@ -6,15 +6,9 @@
   ],
   
   "key": {
-    "X": {
-      "tag": "minecraft:smelts_to_glass"
-      
-    },
-    "#": {
-      "item": "minecraft:dirt"
-    }    
+    "X": "#minecraft:smelts_to_glass",
+    "#": "minecraft:dirt"
   },
-  
   
   "result": {
     "id": "minecraft:mud",

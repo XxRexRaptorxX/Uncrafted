@@ -1,15 +1,10 @@
 {
-
-  "type": "minecraft:crafting_shapeless", 
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:dragon_egg"
-    },
-    {
-      "item": "minecraft:diamond_sword",
-      "data": 0
-    }
+    "minecraft:dragon_egg",
+    "minecraft:diamond_sword"
   ],
+
   "result": {
     "id": "minecraft:dragon_head"
   }

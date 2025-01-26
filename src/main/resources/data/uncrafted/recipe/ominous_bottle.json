@@ -10,16 +10,11 @@
       },
       "items": "minecraft:potion"
     },
-    {
-      "item": "minecraft:wither_skeleton_skull"
-    },
-    {
-      "item": "minecraft:sculk_vein"
-    },
-    {
-      "item": "minecraft:fire_charge"
-    }
+    "minecraft:wither_skeleton_skull",
+    "minecraft:sculk_vein",
+    "minecraft:fire_charge"
   ],
+
   "result": {
     "id": "minecraft:ominous_bottle"
   }

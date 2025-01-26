@@ -6,14 +6,9 @@
   ],
   
   "key": {
-    "#": {
-      "item": "minecraft:sculk"
-    },
-    "X": {
-      "item": "minecraft:echo_shard"
-    }
+    "#": "minecraft:sculk",
+    "X": "minecraft:echo_shard"
   },
-  
   
   "result": {
     "id": "minecraft:sculk_sensor"

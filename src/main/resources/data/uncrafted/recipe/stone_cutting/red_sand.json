@@ -1,9 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "count": 2,
-  "ingredient": {
-    "tag": "c:sandstone/red_blocks"
-  },
+  "ingredient": "#c:sandstone/red_blocks",
+
   "result": {
     "id": "minecraft:red_sand"
   }

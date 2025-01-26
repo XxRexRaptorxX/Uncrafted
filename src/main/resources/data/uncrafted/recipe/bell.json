@@ -7,14 +7,9 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:stick"
-    },
-    "#": {
-      "tag": "c:ingots/copper"
-    }    
+    "X": "minecraft:stick",
+    "#": "#c:ingots/copper"
   },
-  
   
   "result": {
     "id": "minecraft:bell"

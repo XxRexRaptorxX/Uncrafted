@@ -1,19 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:allium"
-    },
-    {
-      "item": "minecraft:allium"
-    },
-    {
-      "item": "minecraft:allium"
-    },
-    {  
-      "item": "minecraft:azalea"
-    }
+    "minecraft:allium",
+    "minecraft:allium",
+    "minecraft:allium",
+    "minecraft:azalea"
   ],
+
   "result": {
     "id": "minecraft:flowering_azalea"
   }

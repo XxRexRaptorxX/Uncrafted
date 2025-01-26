@@ -1,29 +1,18 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XIX",
     "O#O",
     "XIX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:gold_nugget"
-    },
-    "O": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "I": {
-      "item": "minecraft:porkchop"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:gold_nugget",
+    "O": "minecraft:rotten_flesh",
+    "I": "minecraft:porkchop",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:zombified_piglin_spawn_egg"

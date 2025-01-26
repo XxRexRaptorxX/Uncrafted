@@ -1,5 +1,4 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
@@ -10,15 +9,9 @@
   ],
 
   "key": {
-    "X": {
-      "item": "minecraft:carved_pumpkin"
-    },
-    "O": {
-      "item": "minecraft:snow_block"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }
+    "X": "minecraft:carved_pumpkin",
+    "O": "minecraft:snow_block",
+    "#": "minecraft:ghast_tear"
   },
 
 

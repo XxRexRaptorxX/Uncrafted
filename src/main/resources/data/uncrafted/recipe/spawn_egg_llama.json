@@ -1,23 +1,16 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XXX",
     "X#X",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:sand"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:sand",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:llama_spawn_egg"

@@ -7,17 +7,10 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:golden_helmet"
-    },
-    "#": {
-      "item": "minecraft:golden_chestplate"
-    },
-    "O": {
-      "item": "minecraft:golden_leggings"
-    }     
+    "X": "minecraft:golden_helmet",
+    "#": "minecraft:golden_chestplate",
+    "O": "minecraft:golden_leggings"
   },
-  
   
   "result": {
     "id": "minecraft:golden_horse_armor"

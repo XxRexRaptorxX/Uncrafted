@@ -8,15 +8,9 @@
   ],
 
   "key": {
-    "#": {
-      "tag": "c:ingots/gold"
-    },
-    "X": {
-      "tag": "c:gems/emerald"
-    },
-    "O": {
-      "item": "minecraft:end_crystal"
-    }
+    "#": "#c:ingots/gold",
+    "X": "#c:gems/emerald",
+    "O": "minecraft:end_crystal"
   },
 
 

@@ -7,15 +7,9 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:diamond_sword",
-      "data": 0
-    },
-    "I": {
-      "item": "minecraft:prismarine_shard"
-    }    
+    "X": "minecraft:diamond_sword",
+    "I": "minecraft:prismarine_shard"
   },
-  
   
   "result": {
     "id": "minecraft:trident"

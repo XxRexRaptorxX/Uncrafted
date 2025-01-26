@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XXX",
     "O#O",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "O": {
-      "item": "minecraft:leather"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:rotten_flesh",
+    "O": "minecraft:leather",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:husk_spawn_egg"

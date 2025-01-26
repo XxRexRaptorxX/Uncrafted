@@ -10,29 +10,15 @@
       },
       "items": "minecraft:potion"
     },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:potato"
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato",
+    "minecraft:potato"
     }
   ],
   "result": {

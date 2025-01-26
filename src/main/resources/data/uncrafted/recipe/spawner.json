@@ -1,25 +1,16 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "XXX",
     "#O#",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "tag": "c:ingots/netherite"
-    },
-    "#": {
-      "item": "minecraft:heavy_core"
-    },
-    "O": {
-      "tag": "c:nether_stars"
-    }  
+    "X": "#c:ingots/netherite",
+    "#": "minecraft:heavy_core",
+    "O": "#c:nether_stars"
   },
-  
   
   "result": {
     "id": "minecraft:spawner"

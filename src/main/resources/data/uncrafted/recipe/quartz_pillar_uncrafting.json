@@ -2,12 +2,8 @@
 
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-  
-    {
-      "item": "minecraft:quartz_pillar"
-    }
+    "minecraft:quartz_pillar"
   ],
-  
   
   "result": {
     "id": "minecraft:quartz_block"

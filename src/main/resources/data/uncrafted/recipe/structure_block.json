@@ -1,5 +1,4 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "structure_block",
   "pattern": [
@@ -8,13 +7,10 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_block"
-    },
-    "O": {
-      "item": "minecraft:command_block"
-    }    
+    "#": "minecraft:redstone_block",
+    "O": "minecraft:command_block"
   },
+
   "result": {
     "id": "minecraft:structure_block"
   }

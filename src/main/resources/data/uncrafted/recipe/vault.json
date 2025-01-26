@@ -7,20 +7,11 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:trial_spawner"
-    },
-    "I": {
-      "item": "minecraft:dropper"
-    },
-    "#": {
-      "tag": "c:ingots/iron"
-    },
-    "-": {
-      "item": "minecraft:iron_bars"
-    }
+    "X": "minecraft:trial_spawner",
+    "I": "minecraft:dropper",
+    "#": "#c:ingots/iron",
+    "-": "minecraft:iron_bars"
   },
-  
   
   "result": {
     "id": "minecraft:vault"

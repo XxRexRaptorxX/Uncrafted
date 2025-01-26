@@ -1,13 +1,10 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:spawner"
-    },
-    {
-      "item": "minecraft:trial_key"
-    }
+    "minecraft:spawner",
+    "minecraft:trial_key"
   ],
+
   "result": {
     "id": "minecraft:trial_spawner"
   }

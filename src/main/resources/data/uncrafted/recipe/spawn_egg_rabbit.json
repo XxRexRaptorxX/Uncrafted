@@ -2,21 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XXX",
     "X#X",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:rabbit_hide"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:rabbit_hide",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:rabbit_spawn_egg"

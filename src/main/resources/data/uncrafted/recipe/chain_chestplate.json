@@ -7,14 +7,9 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:string"
-    },
-    "#": {
-      "tag": "c:ingots/iron"
-    }    
+    "X": "minecraft:string",
+    "#": "#c:ingots/iron"
   },
-  
   
   "result": {
     "id": "minecraft:chainmail_chestplate"

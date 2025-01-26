@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     " O ",
     "X#X",
     " O "
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:saddle"
-    },
-    "O": {
-      "item": "minecraft:carrot"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:saddle",
+    "O": "minecraft:carrot",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:horse_spawn_egg"

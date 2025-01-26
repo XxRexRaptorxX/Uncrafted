@@ -7,14 +7,9 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:gold_block"
-    },
-    "O": {
-      "item": "minecraft:golden_apple"
-    }    
+    "X": "minecraft:gold_block",
+    "O": "minecraft:golden_apple"
   },
-  
   
   "result": {
     "id": "minecraft:enchanted_golden_apple"

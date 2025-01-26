@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     "XOX",
     "O#O",
     "XOX"
   ],
   
   "key": {
-    "O": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "X": {
-      "item": "minecraft:porkchop"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "O": "minecraft:rotten_flesh",
+    "X": "minecraft:porkchop",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:zoglin_spawn_egg"

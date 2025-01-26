@@ -1,26 +1,17 @@
 {
-
   "type": "minecraft:crafting_shaped",
   "group": "spawn_eggs",
   "pattern": [
-  
     " X ",
     "O#O",
     " O "
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:carved_pumpkin"
-    },
-    "O": {
-      "item": "minecraft:iron_block"
-    },
-    "#": {
-      "item": "minecraft:ghast_tear"
-    }    
+    "X": "minecraft:carved_pumpkin",
+    "O": "minecraft:iron_block",
+    "#": "minecraft:ghast_tear"
   },
-  
   
   "result": {
     "id": "minecraft:iron_golem_spawn_egg"

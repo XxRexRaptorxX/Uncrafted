@@ -1,18 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  
     "XXX",
     "XXX",
     "XXX"
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:yellow_wool"
-    } 
+    "X": "minecraft:yellow_wool"
   },
-  
   
   "result": {
     "id": "minecraft:sponge"

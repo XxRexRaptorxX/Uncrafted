@@ -7,16 +7,9 @@
   ],
   
   "key": {
-     "#": [
-      {
-        "item": "minecraft:phantom_membrane"
-      }
-    ],
-    "X": {
-      "tag": "c:ingots/netherite"
-    }    
+    "#": "minecraft:phantom_membrane",
+    "X": "#c:ingots/netherite"
   },
-  
   
   "result": {
     "id": "minecraft:elytra"

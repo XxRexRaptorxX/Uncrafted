@@ -7,17 +7,10 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:diamond_helmet"
-    },
-    "#": {
-      "item": "minecraft:diamond_chestplate"
-    },
-    "O": {
-      "item": "minecraft:diamond_leggings"
-    }     
+    "X": "minecraft:diamond_helmet",
+    "#": "minecraft:diamond_chestplate",
+    "O": "minecraft:diamond_leggings"
   },
-  
   
   "result": {
     "id": "minecraft:diamond_horse_armor"

@@ -6,17 +6,10 @@
   ],
   
   "key": {
-    "X": {
-      "item": "minecraft:sculk_catalyst"
-    },
-    "#": {
-      "item": "minecraft:end_stone"
-    },
-    "O": {
-      "item": "minecraft:echo_shard"
-    }
+    "X": "minecraft:sculk_catalyst",
+    "#": "minecraft:end_stone",
+    "O": "minecraft:echo_shard"
   },
-  
   
   "result": {
     "id": "minecraft:sculk_shrieker"
