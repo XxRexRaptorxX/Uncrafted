@@ -8,18 +8,16 @@ import xxrexraptorxx.util.Config;
 
 /**
  * @author XxRexRaptorxX (RexRaptor)
- * @forumThread https://minecraft.curseforge.com/projects/uncrafted-mod
+ * @projectPage <a href="https://minecraft.curseforge.com/projects/uncrafted-mod">...</a>
  **/
 @Mod(References.MODID)
 public class Uncrafted {
 
     public static final Logger LOGGER = LogManager.getLogger();
 
-
     public Uncrafted(ModContainer container) {
         Config.init(container);
     }
-
 
 }
 
