@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/white",
+      "#c:dyes/light_gray",
       "#minecraft:planks"
   ],
 

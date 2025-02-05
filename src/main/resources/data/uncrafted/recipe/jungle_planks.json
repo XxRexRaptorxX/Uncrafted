@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/orange",
+      "#c:dyes/magenta",
       "#minecraft:planks"
   ],
 
