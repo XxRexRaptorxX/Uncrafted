@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:wither_skeleton_spawn_egg",
+    "minecraft:rose_bush"
+  ],
+
+  "result": {
+    "id": "minecraft:wither_rose",
+    "count": 9
+  }
+}
