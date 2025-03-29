@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:flowers/small",
+    "#c:flowers/small",
+    "#c:flowers/small",
+    "#c:flowers/small"
+  ],
+
+  "result": {
+    "id": "minecraft:wildflowers"
+  }
+}
