@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "type": "neoforge:components",
+      "neoforge:ingredient_type": "neoforge:components",
       "components": {
         "minecraft:potion_contents": {
           "potion": "minecraft:poison"
@@ -19,7 +19,6 @@
     "minecraft:potato",
     "minecraft:potato",
     "minecraft:potato"
-    }
   ],
   "result": {
     "id": "minecraft:poisonous_potato",
