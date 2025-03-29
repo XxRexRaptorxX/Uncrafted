@@ -14,17 +14,17 @@
 
 ## 📖 Description
 
-Uncrafted is a mod which adds many new recipes for already existing items and blocks. With this mod it's possible to craft spawners, bedrock, name tags, and maaany more..
+Uncrafted is a mod which adds many new recipes for already existing items and blocks. With this mod it's possible to craft spawners, bedrock, spawn eggs, name tags, and maaany more..
 
 -----
 
-- No new blocks or items were added. Only crafting and smelting recipes for vanilla minecraft.
+- no new blocks or items were added. Only crafting and smelting recipes for vanilla Minecraft.
 - currently over 200 new crafting and smelting recipes!
-- If you want a mod to break placed Bedrock, Command blocks, etc. use my other mod [Bedrock Miner](https://www.curseforge.com/minecraft/mc-mods/bedrock-miner)!
+- if you need a mod to break placed bedrock, command blocks, etc. use my other mod [Bedrock Miner](https://www.curseforge.com/minecraft/mc-mods/bedrock-miner)!
 
------
+----
 
-Note: Theres different recipes in different Minecraft versions, i suggest you to use [JEI](https://www.curseforge.com/minecraft/mc-mods/jei), [NEI](https://www.curseforge.com/minecraft/mc-mods/notenoughitems), TMI or any other recipe viewer mod to see the right recipes! :)
+Note: There's different recipes in different Minecraft versions, I suggest you to use [JEI](https://www.curseforge.com/minecraft/mc-mods/jei), [NEI](https://www.curseforge.com/minecraft/mc-mods/notenoughitems), TMI or any other recipe viewer mod to see the right recipes! :)
 
 ![Recipes](http://i.imgur.com/6YmC1x0g.jpg)
 
