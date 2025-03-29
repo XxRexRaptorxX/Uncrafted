@@ -30,20 +30,19 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import xxrexraptorxx.main.References;
 import xxrexraptorxx.main.Uncrafted;
 
-import java.net.MalformedURLException;
 import java.net.URI;
-import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.List;
-import java.util.Scanner;
 import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = References.MODID, bus = EventBusSubscriber.Bus.GAME)
 public class Events {
 
-    /** Update Checker **/
+    /**
+     * Update Checker
+     **/
     private static boolean hasShownUp = false;
 
     @SubscribeEvent
@@ -52,7 +51,7 @@ public class Events {
 
             if (!hasShownUp && Minecraft.getInstance().screen == null) {
                 var player = Minecraft.getInstance().player;
-                if (player == null) return; // Added null check
+                if (player == null) return;
 
                 var modContainer = ModList.get().getModContainerById(References.MODID).orElse(null);
 
@@ -61,7 +60,7 @@ public class Events {
 
                     if (versionCheckResult.status() == VersionChecker.Status.OUTDATED || versionCheckResult.status() == VersionChecker.Status.BETA_OUTDATED) {
                         MutableComponent url = Component.literal(ChatFormatting.GREEN + "Click here to update!")
-                                .withStyle(style -> style.withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, References.URL)));
+                                .withStyle(style -> style.withClickEvent(new ClickEvent.OpenUrl(URI.create(References.URL))));
 
                         player.displayClientMessage(Component.literal(ChatFormatting.BLUE + "A newer version of " + ChatFormatting.YELLOW + References.NAME + ChatFormatting.BLUE + " is available!"), false);
                         player.displayClientMessage(url, false);
@@ -117,7 +116,7 @@ public class Events {
     /**
      * Checks if the player is in the supporter list from the given URI.
      *
-     * @param uri URI to a file containing supporter names
+     * @param uri    URI to a file containing supporter names
      * @param player The in-game player
      * @return true if the player is a supporter, otherwise false
      */
@@ -151,6 +150,7 @@ public class Events {
         player.getInventory().add(certificate);
     }
 
+
     private static void givePremiumSupporterReward(Player player, Level level) {
         ItemStack reward = new ItemStack(Items.DIAMOND_SWORD, 1);
         Registry<Enchantment> enchantmentsRegistry = level.registryAccess().lookupOrThrow(Registries.ENCHANTMENT);
@@ -161,43 +161,12 @@ public class Events {
         player.getInventory().add(reward);
     }
 
+
     private static void giveEliteReward(Player player) {
         ItemStack star = new ItemStack(Items.NETHER_STAR);
 
         star.set(DataComponents.CUSTOM_NAME, Component.literal("Elite Star"));
         player.getInventory().add(star);
-    }
-
-
-    /**
-     * Tests if a player is a supporter
-     *
-     * @param url url to a file that contains the supporter names
-     * @param player ingame player
-     * @return true/false
-     */
-    private static boolean SupporterCheck(URL url, Player player) {
-        try {
-            Scanner scanner = new Scanner(url.openStream());
-            List<String> supporterList = scanner.tokens().toList();
-
-            for (String name: supporterList) {
-                //test if player is in supporter list
-                if (player.getName().getString().equals(name)) {
-                    return true;
-                }
-            }
-
-            scanner.close();
-
-        } catch (MalformedURLException e) {
-            Uncrafted.LOGGER.error("Supporter list URL not found! >>{}", url);
-
-        } catch (Exception e) {
-            Uncrafted.LOGGER.error("An unexpected error occurred while checking supporter list", e);
-        }
-
-        return false;
     }
 
 }
