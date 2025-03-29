@@ -52,7 +52,7 @@ public class Events {
 
             if (!hasShownUp && Minecraft.getInstance().screen == null) {
                 var player = Minecraft.getInstance().player;
-                if (player == null) return; // Added null check
+                if (player == null) return;
 
                 var modContainer = ModList.get().getModContainerById(References.MODID).orElse(null);
 
@@ -166,38 +166,6 @@ public class Events {
 
         star.set(DataComponents.CUSTOM_NAME, Component.literal("Elite Star"));
         player.getInventory().add(star);
-    }
-
-
-    /**
-     * Tests if a player is a supporter
-     *
-     * @param url url to a file that contains the supporter names
-     * @param player ingame player
-     * @return true/false
-     */
-    private static boolean SupporterCheck(URL url, Player player) {
-        try {
-            Scanner scanner = new Scanner(url.openStream());
-            List<String> supporterList = scanner.tokens().toList();
-
-            for (String name: supporterList) {
-                //test if player is in supporter list
-                if (player.getName().getString().equals(name)) {
-                    return true;
-                }
-            }
-
-            scanner.close();
-
-        } catch (MalformedURLException e) {
-            Uncrafted.LOGGER.error("Supporter list URL not found! >>{}", url);
-
-        } catch (Exception e) {
-            Uncrafted.LOGGER.error("An unexpected error occurred while checking supporter list", e);
-        }
-
-        return false;
     }
 
 }
