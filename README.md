@@ -12,6 +12,8 @@
   - [CurseForge][cf_magmacore] | [Modrinth][mr_magmacore]
 - **Just Enough Items (JEI)** *[optional]*
    - [CurseForge][cf_jei] | [Modrinth][mr_jei]
+- **Roughly Enough Items (REI)** *[optional]*
+  - [CurseForge][cf_rei] | [Modrinth][mr_rei]
 
 
 ## 📖 Description
@@ -41,6 +43,9 @@ All rights reserved.
 
 [cf_jei]: https://www.curseforge.com/minecraft/mc-mods/jei
 [mr_jei]: https://modrinth.com/mod/jei
+
+[cf_rei]: https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items
+[mr_rei]: https://modrinth.com/mod/rei
 
 [cf_magmacore]: https://www.curseforge.com/minecraft/mc-mods/magma-core
 [mr_magmacore]: https://modrinth.com/mod/magma-core
