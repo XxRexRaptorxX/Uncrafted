@@ -8,6 +8,8 @@
 
 ## 🗃️ Dependencies
 
+- **Magma Core**
+  - [CurseForge][cf_magmacore] | [Modrinth][mr_magmacore]
 - **Just Enough Items (JEI)** *[optional]*
    - [CurseForge][cf_jei] | [Modrinth][mr_jei]
 
@@ -39,3 +41,6 @@ All rights reserved.
 
 [cf_jei]: https://www.curseforge.com/minecraft/mc-mods/jei
 [mr_jei]: https://modrinth.com/mod/jei
+
+[cf_magmacore]: https://www.curseforge.com/minecraft/mc-mods/magma-core
+[mr_magmacore]: https://modrinth.com/mod/magma-core
