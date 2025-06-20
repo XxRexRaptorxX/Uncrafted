@@ -14,7 +14,6 @@
 
 Uncrafted is a mod which adds many new recipes for already existing items and blocks. With this mod it's possible to craft spawners, bedrock, spawn eggs, name tags, and maaany more..
 
------
 
 - no new blocks or items were added. Only crafting and smelting recipes for vanilla Minecraft.
 - currently over 200 new crafting and smelting recipes!
