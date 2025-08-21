@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glowstone",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac"
+  ],
+  "result": {
+    "id": "minecraft:light"
+  }
+}
