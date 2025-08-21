@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spawn_eggs",
+  "ingredients": [
+    "minecraft:axolotl_bucket",
+    "minecraft:ghast_tear"
+  ],
+  "result": {
+    "id": "minecraft:axolotl_spawn_egg"
+  }
+}

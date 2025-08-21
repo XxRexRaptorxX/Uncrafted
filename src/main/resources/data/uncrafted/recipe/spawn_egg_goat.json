@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "X": "minecraft:soul_sand",
+    "#": "minecraft:goat_horn"
+  },
+  "result": {
+    "id": "minecraft:goat_spawn_egg"
+  }
+}
