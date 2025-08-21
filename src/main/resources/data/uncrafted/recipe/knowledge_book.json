@@ -1,7 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "minecraft:crafting_table",
+    "minecraft:enchanted_book",
+    "minecraft:written_book",
     "minecraft:book"
   ],
   "result": {
