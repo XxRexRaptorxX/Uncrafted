@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:test_block"
+  ],
+  "result": {
+    "id": "minecraft:test_instance_block"
+  }
+}
