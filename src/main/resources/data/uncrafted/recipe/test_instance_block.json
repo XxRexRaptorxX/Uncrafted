@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:command_block",
-    "minecraft:knowledge_block"
+    "minecraft:knowledge_book"
   ],
   "result": {
     "id": "minecraft:test_block"
