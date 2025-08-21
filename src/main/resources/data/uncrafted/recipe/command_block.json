@@ -8,7 +8,7 @@
   ],
   "key": {
     "#": "minecraft:redstone_block",
-    "O": "minecraft:diamond_block",
+    "O": "minecraft:heavy_core",
     "I": "minecraft:beacon"
   },
   "result": {
