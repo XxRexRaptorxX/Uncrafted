@@ -8,3 +8,7 @@
 * missing spawn egg recipes added ([ea7a15f](https://github.com/XxRexRaptorxX/Uncrafted/commit/ea7a15f7480a9260cbece76332191c802f349081))
 * pointed dripstone cutting recipe added ([c2622be](https://github.com/XxRexRaptorxX/Uncrafted/commit/c2622bea2d220f614b573ece8502dac9d8526edc))
 * test block and test instance block recipes added ([f73f3d9](https://github.com/XxRexRaptorxX/Uncrafted/commit/f73f3d9e81aa76aa8487cc6ff66b89f7506ab88f))
+
+### Bug Fixes
+
+* test instance block recipe typo ([5443621](https://github.com/XxRexRaptorxX/Uncrafted/commit/544362126f9580017aa694b8b56cca8363784488))
