@@ -1,10 +1,8 @@
 {
-
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:purpur_pillar"
   ],
-
   "result": {
     "id": "minecraft:purpur_slab",
     "count": 2

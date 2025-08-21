@@ -12,7 +12,6 @@
     "minecraft:glass_bottle",
     "minecraft:dragon_head"
   ],
-
   "result": {
     "id": "minecraft:dragon_breath",
     "count": 8

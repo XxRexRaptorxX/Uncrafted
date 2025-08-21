@@ -6,13 +6,10 @@
     "X#X",
     "#X#"
   ],
-  
   "key": {
-    "X": "minecraft:magma_block",
     "X": "minecraft:magma_block",
     "#": "minecraft:magma_cream"
   },
-  
   "result": {
     "id": "minecraft:strider_spawn_egg"
   }

@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/cyan",
-      "#minecraft:planks"
+    "#c:dyes/cyan",
+    "#minecraft:planks"
   ],
-
   "result": {
     "id": "minecraft:warped_planks"
   }

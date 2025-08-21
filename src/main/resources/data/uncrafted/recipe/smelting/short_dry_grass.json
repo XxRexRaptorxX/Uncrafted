@@ -1,7 +1,6 @@
 {
   "type": "minecraft:smelting",
   "ingredient": "minecraft:short_grass",
-
   "result": {
     "id": "minecraft:short_dry_grass"
   },

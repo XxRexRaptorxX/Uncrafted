@@ -5,7 +5,6 @@
     "minecraft:stone",
     "minecraft:silverfish_spawn_egg"
   ],
-
   "result": {
     "id": "minecraft:infested_stone"
   }

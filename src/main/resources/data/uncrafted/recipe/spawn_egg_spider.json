@@ -6,13 +6,11 @@
     "X#X",
     "OXO"
   ],
-  
   "key": {
     "O": "minecraft:cobweb",
     "X": "minecraft:spider_eye",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:spider_spawn_egg"
   }

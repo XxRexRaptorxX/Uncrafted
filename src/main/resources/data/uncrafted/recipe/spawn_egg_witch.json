@@ -6,7 +6,6 @@
     "O#O",
     "ZIX"
   ],
-  
   "key": {
     "X": "minecraft:glass_bottle",
     "I": "minecraft:glowstone_dust",
@@ -14,7 +13,6 @@
     "O": "minecraft:nether_wart",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:witch_spawn_egg"
   }

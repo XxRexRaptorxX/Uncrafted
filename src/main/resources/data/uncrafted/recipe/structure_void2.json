@@ -1,13 +1,11 @@
 {
-
   "type": "minecraft:crafting_shapeless",
   "group": "structure_void",
   "ingredients": [
     "minecraft:barrier",
     "minecraft:ender_eye"
   ],
-
   "result": {
     "id": "minecraft:structure_void"
-    }
+  }
 }

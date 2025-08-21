@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dusts/glowstone",
-      "#c:dusts/glowstone",
-      "#c:dusts/glowstone",
-      "#c:dusts/glowstone",
-      "minecraft:red_mushroom_block",
-      "#c:dusts/glowstone",
-      "#c:dusts/glowstone",
-      "#c:dusts/glowstone",
-      "#c:dusts/glowstone"
+    "#c:dusts/glowstone",
+    "#c:dusts/glowstone",
+    "#c:dusts/glowstone",
+    "#c:dusts/glowstone",
+    "minecraft:red_mushroom_block",
+    "#c:dusts/glowstone",
+    "#c:dusts/glowstone",
+    "#c:dusts/glowstone",
+    "#c:dusts/glowstone"
   ],
-
   "result": {
     "id": "minecraft:shroomlight"
   }

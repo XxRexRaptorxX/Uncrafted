@@ -3,7 +3,6 @@
   "ingredients": [
     "minecraft:cobweb"
   ],
-
   "result": {
     "id": "minecraft:string",
     "count": 4

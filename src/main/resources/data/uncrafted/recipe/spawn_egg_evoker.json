@@ -6,13 +6,11 @@
     "X#X",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:enchanted_book",
     "O": "minecraft:emerald",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:evoker_spawn_egg"
   }

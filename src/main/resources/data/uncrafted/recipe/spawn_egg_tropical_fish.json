@@ -6,12 +6,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:tropical_fish",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:tropical_fish_spawn_egg"
   }

@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:armadillo_scute",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:armadillo_spawn_egg"
   }

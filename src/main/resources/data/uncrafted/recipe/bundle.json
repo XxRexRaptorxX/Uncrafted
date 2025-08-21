@@ -5,12 +5,10 @@
     "# #",
     "###"
   ],
-  
   "key": {
     "X": "minecraft:string",
     "#": "minecraft:rabbit_hide"
   },
-  
   "result": {
     "id": "minecraft:bundle"
   }

@@ -6,12 +6,10 @@
     "XOX",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:black_terracotta",
     "O": "minecraft:exposed_copper"
   },
-  
   "result": {
     "id": "minecraft:music_disc_precipice"
   }

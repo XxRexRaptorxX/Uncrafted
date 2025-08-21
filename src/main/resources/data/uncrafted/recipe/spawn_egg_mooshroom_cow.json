@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:red_mushroom_block",
     "O": "minecraft:red_mushroom",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:mooshroom_spawn_egg"
   }

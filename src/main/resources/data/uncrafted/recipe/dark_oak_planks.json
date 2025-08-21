@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/black",
-      "#minecraft:planks"
+    "#c:dyes/black",
+    "#minecraft:planks"
   ],
-
   "result": {
     "id": "minecraft:dark_oak_planks"
   }

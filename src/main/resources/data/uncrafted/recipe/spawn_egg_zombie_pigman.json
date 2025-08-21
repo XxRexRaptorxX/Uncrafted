@@ -6,14 +6,12 @@
     "O#O",
     "XIX"
   ],
-  
   "key": {
     "X": "minecraft:gold_nugget",
     "O": "minecraft:rotten_flesh",
     "I": "minecraft:porkchop",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:zombified_piglin_spawn_egg"
   }

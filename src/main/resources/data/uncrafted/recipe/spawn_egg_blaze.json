@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:blaze_powder",
     "O": "minecraft:blaze_rod",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:blaze_spawn_egg"
   }

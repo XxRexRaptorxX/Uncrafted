@@ -6,12 +6,10 @@
     "XOX",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:red_terracotta",
     "O": "minecraft:light_blue_terracotta"
   },
-  
   "result": {
     "id": "minecraft:music_disc_relic"
   }

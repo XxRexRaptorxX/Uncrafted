@@ -5,13 +5,11 @@
     "#X#",
     "O#O"
   ],
-  
   "key": {
     "#": "#c:nuggets/gold",
     "O": "minecraft:blaze_powder",
     "X": "minecraft:glass_bottle"
   },
-  
   "result": {
     "id": "minecraft:experience_bottle"
   }

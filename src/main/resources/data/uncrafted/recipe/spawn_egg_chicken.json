@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:feather",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:chicken_spawn_egg"
   }

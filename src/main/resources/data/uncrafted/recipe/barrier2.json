@@ -5,13 +5,11 @@
     "#O#",
     "X#X"
   ],
-  
   "key": {
     "X": "minecraft:bedrock",
     "O": "minecraft:ender_eye",
     "#": "minecraft:glass"
   },
-  
   "result": {
     "id": "minecraft:barrier"
   }

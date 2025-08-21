@@ -5,12 +5,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:obsidian",
     "#": "minecraft:structure_void"
   },
-  
   "result": {
     "id": "minecraft:bedrock"
   }

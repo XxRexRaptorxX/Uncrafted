@@ -5,12 +5,10 @@
     "OXO",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:obsidian",
     "O": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:crying_obsidian",
     "cound": 4

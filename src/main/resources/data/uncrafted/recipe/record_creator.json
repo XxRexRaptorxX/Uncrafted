@@ -6,12 +6,10 @@
     "XOX",
     " X "
   ],
-  
   "key": {
     "O": "minecraft:yellow_terracotta",
     "X": "minecraft:oxidized_copper"
   },
-  
   "result": {
     "id": "minecraft:music_disc_creator"
   }

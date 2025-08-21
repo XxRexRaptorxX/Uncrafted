@@ -5,8 +5,7 @@
     "minecraft:structure_block",
     "minecraft:ender_eye"
   ],
-
   "result": {
     "id": "minecraft:structure_void"
-    }
+  }
 }

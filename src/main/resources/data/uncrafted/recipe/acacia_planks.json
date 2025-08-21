@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/orange",
-      "#minecraft:planks"
+    "#c:dyes/orange",
+    "#minecraft:planks"
   ],
-
   "result": {
     "id": "minecraft:acacia_planks"
   }

@@ -5,12 +5,10 @@
     "#",
     "X"
   ],
-  
   "key": {
     "X": "#c:gems/diamond",
     "#": "minecraft:stick"
   },
-  
   "result": {
     "id": "minecraft:debug_stick"
   }

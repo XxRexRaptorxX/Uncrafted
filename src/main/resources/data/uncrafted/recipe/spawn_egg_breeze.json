@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:wind_charge",
     "O": "minecraft:breeze_rod",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:breeze_spawn_egg"
   }

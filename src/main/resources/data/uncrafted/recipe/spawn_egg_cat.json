@@ -6,13 +6,11 @@
     "Y#Y",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:cod",
     "Y": "minecraft:salmon",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:cat_spawn_egg"
   }

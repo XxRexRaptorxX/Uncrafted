@@ -5,7 +5,6 @@
     "#c:rods/breeze",
     "minecraft:fire_charge"
   ],
-
   "result": {
     "id": "minecraft:blaze_rod"
   }

@@ -3,7 +3,6 @@
   "ingredients": [
     "minecraft:sculk"
   ],
-
   "result": {
     "id": "minecraft:sculk_vein",
     "count": 9

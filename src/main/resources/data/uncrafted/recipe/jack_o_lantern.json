@@ -4,12 +4,10 @@
     "X",
     "O"
   ],
-  
   "key": {
     "X": "minecraft:carved_pumpkin",
     "O": "#minecraft:candles"
   },
-  
   "result": {
     "id": "minecraft:jack_o_lantern"
   }

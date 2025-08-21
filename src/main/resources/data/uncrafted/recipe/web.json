@@ -5,11 +5,9 @@
     " X ",
     "X X"
   ],
-  
   "key": {
     "X": "minecraft:string"
   },
-  
   "result": {
     "id": "minecraft:cobweb"
   }

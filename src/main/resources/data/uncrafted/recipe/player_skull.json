@@ -4,7 +4,6 @@
     "minecraft:wandering_trader_spawn_egg",
     "minecraft:iron_sword"
   ],
-
   "result": {
     "id": "minecraft:player_head"
   }

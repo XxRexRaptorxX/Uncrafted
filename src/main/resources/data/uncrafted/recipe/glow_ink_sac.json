@@ -2,9 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:ink_sac",
-      "#c:dusts/glowstone"
+    "#c:dusts/glowstone"
   ],
-
   "result": {
     "id": "minecraft:glow_ink_sac"
   }

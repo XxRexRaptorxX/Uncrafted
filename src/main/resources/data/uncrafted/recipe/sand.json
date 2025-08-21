@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/yellow",
+    "#c:dyes/yellow",
     "minecraft:red_sand"
   ],
-
   "result": {
     "id": "minecraft:sand"
   }

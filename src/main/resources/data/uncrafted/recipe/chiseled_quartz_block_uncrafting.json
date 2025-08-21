@@ -1,10 +1,8 @@
 {
-
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:chiseled_quartz_block"
   ],
-  
   "result": {
     "id": "minecraft:quartz_slab",
     "count": 2

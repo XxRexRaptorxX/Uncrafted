@@ -14,6 +14,4 @@ public class Uncrafted {
     public Uncrafted(ModContainer container) {
         ModRegistry.register(References.MODID, References.NAME, References.URL);
     }
-
 }
-

@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:emerald",
     "O": "minecraft:gold_nugget",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:wandering_trader_spawn_egg"
   }

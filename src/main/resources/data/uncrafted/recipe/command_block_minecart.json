@@ -4,12 +4,10 @@
     "#",
     "X"
   ],
-  
   "key": {
     "#": "minecraft:command_block",
     "X": "minecraft:minecart"
   },
-  
   "result": {
     "id": "minecraft:command_block_minecart"
   }

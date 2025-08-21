@@ -6,13 +6,11 @@
     "O#O",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:rotten_flesh",
     "O": "minecraft:saddle",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:zombie_horse_spawn_egg"
   }

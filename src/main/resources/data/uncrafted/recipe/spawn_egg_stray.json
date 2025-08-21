@@ -6,13 +6,11 @@
     "O#O",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:bone",
     "O": "minecraft:bow",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:stray_spawn_egg"
   }

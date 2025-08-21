@@ -5,13 +5,11 @@
     "##",
     "OO"
   ],
-  
   "key": {
     "X": "minecraft:iron_helmet",
     "#": "minecraft:iron_chestplate",
     "O": "minecraft:iron_leggings"
   },
-  
   "result": {
     "id": "minecraft:iron_horse_armor"
   }

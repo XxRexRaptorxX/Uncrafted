@@ -4,7 +4,6 @@
     "minecraft:crafting_table",
     "minecraft:book"
   ],
-
   "result": {
     "id": "minecraft:knowledge_book"
   }

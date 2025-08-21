@@ -5,13 +5,11 @@
     "##",
     "OO"
   ],
-  
   "key": {
     "X": "minecraft:golden_helmet",
     "#": "minecraft:golden_chestplate",
     "O": "minecraft:golden_leggings"
   },
-  
   "result": {
     "id": "minecraft:golden_horse_armor"
   }

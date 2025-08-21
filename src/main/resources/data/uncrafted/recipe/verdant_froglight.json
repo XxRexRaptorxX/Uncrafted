@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/lime",
-      "minecraft:ochre_froglight"
+    "#c:dyes/lime",
+    "minecraft:ochre_froglight"
   ],
-
   "result": {
     "id": "minecraft:verdant_froglight"
   }

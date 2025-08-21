@@ -6,13 +6,11 @@
     "X#X",
     "OXO"
   ],
-  
   "key": {
     "X": "minecraft:feather",
     "O": "minecraft:wheat_seeds",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:parrot_spawn_egg"
   }

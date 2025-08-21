@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:bamboo",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:panda_spawn_egg"
   }

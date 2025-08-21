@@ -6,14 +6,12 @@
     "O#O",
     "XIX"
   ],
-  
   "key": {
     "X": "minecraft:stone_bricks",
     "I": "minecraft:cobblestone",
     "O": "minecraft:stone",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:silverfish_spawn_egg"
   }

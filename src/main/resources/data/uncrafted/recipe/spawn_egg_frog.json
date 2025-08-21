@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:lily_pad",
     "O": "minecraft:slime_ball",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:frog_spawn_egg"
   }

@@ -4,12 +4,10 @@
     "X X",
     "# #"
   ],
-  
   "key": {
     "X": "minecraft:string",
     "#": "#c:ingots/iron"
   },
-  
   "result": {
     "id": "minecraft:chainmail_boots"
   }

@@ -5,12 +5,10 @@
     "XXX",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:dirt",
     "#": "minecraft:short_grass"
   },
-  
   "result": {
     "id": "minecraft:grass_block"
   }

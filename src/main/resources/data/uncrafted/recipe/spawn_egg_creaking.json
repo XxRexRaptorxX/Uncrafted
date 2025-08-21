@@ -5,7 +5,6 @@
     "minecraft:ghast_tear",
     "minecraft:creaking_heart"
   ],
-  
   "result": {
     "id": "minecraft:creaking_spawn_egg"
   }

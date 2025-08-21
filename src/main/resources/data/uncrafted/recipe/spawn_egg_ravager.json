@@ -6,14 +6,12 @@
     "O#O",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:emerald",
     "O": "minecraft:rotten_flesh",
     "I": "minecraft:saddle",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:ravager_spawn_egg"
   }

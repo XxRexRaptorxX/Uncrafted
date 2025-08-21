@@ -2,9 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:brown_mushroom_block",
-      "#c:dyes/white"
+    "#c:dyes/white"
   ],
-
   "result": {
     "id": "minecraft:mushroom_stem"
   }

@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:ink_sac",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:squid_spawn_egg"
   }

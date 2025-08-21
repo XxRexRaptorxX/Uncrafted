@@ -5,13 +5,10 @@
     "###",
     "###"
   ],
-  
   "key": {
     "X": "minecraft:sculk",
     "#": "minecraft:end_stone"
-      
   },
-  
   "result": {
     "id": "minecraft:sculk_catalyst"
   }

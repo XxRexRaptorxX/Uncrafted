@@ -5,12 +5,10 @@
     "###",
     "# #"
   ],
-  
   "key": {
     "X": "minecraft:stick",
     "#": "#c:ingots/copper"
   },
-  
   "result": {
     "id": "minecraft:bell"
   }

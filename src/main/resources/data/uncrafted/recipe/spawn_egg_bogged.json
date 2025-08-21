@@ -6,14 +6,12 @@
     "X#X",
     "OXI"
   ],
-  
   "key": {
     "X": "minecraft:bone",
     "O": "minecraft:brown_mushroom",
     "I": "minecraft:red_mushroom",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:bogged_spawn_egg"
   }

@@ -5,12 +5,10 @@
     " I ",
     " I "
   ],
-  
   "key": {
     "X": "minecraft:diamond_sword",
     "I": "minecraft:prismarine_shard"
   },
-  
   "result": {
     "id": "minecraft:trident"
   }

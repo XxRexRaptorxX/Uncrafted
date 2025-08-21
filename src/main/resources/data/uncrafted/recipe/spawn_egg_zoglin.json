@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "O": "minecraft:rotten_flesh",
     "X": "minecraft:porkchop",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:zoglin_spawn_egg"
   }

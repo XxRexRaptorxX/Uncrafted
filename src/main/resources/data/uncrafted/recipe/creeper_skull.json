@@ -4,7 +4,6 @@
     "minecraft:creeper_spawn_egg",
     "minecraft:diamond_sword"
   ],
-
   "result": {
     "id": "minecraft:creeper_head"
   }

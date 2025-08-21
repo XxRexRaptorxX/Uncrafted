@@ -4,12 +4,10 @@
     "#X",
     "X#"
   ],
-  
   "key": {
     "X": "#minecraft:smelts_to_glass",
     "#": "minecraft:dirt"
   },
-  
   "result": {
     "id": "minecraft:mud",
     "count": 4

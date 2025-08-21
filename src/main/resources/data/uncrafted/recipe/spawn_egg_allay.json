@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:amethyst_shard",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:allay_spawn_egg"
   }

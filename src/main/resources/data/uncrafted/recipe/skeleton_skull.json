@@ -4,7 +4,6 @@
     "minecraft:skeleton_spawn_egg",
     "minecraft:iron_sword"
   ],
-
   "result": {
     "id": "minecraft:skeleton_skull"
   }

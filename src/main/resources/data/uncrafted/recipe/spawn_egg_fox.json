@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:rabbit_hide",
     "O": "minecraft:sweet_berries",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:fox_spawn_egg"
   }

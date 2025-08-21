@@ -4,12 +4,10 @@
     "X X",
     "###"
   ],
-  
   "key": {
     "#": "minecraft:sculk",
     "X": "minecraft:echo_shard"
   },
-  
   "result": {
     "id": "minecraft:sculk_sensor"
   }

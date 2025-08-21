@@ -2,7 +2,6 @@
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": "#c:sandstone/uncolored_blocks",
-
   "result": {
     "id": "minecraft:sand"
   }

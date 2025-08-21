@@ -6,13 +6,11 @@
     "O#O",
     "XOX"
   ],
-  
   "key": {
     "X": "minecraft:leather",
     "O": "minecraft:beef",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:cow_spawn_egg"
   }

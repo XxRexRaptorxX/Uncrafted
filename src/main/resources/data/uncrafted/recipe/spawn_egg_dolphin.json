@@ -6,12 +6,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:nautilus_shell",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:dolphin_spawn_egg"
   }

@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/red",
-      "#minecraft:planks"
+    "#c:dyes/red",
+    "#minecraft:planks"
   ],
-
   "result": {
     "id": "minecraft:mangrove_planks"
   }

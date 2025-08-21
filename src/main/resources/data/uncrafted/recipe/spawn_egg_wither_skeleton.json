@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:soul_sand",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:wither_skeleton_spawn_egg"
   }

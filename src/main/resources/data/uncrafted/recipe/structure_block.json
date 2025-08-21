@@ -10,7 +10,6 @@
     "#": "minecraft:redstone_block",
     "O": "minecraft:command_block"
   },
-
   "result": {
     "id": "minecraft:structure_block"
   }

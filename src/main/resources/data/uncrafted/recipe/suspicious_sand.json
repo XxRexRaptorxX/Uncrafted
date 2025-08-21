@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:sands/colorless",
-      "#minecraft:decorated_pot_sherds"
+    "#c:sands/colorless",
+    "#minecraft:decorated_pot_sherds"
   ],
-
   "result": {
     "id": "minecraft:suspicious_sand"
   }

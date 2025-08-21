@@ -6,13 +6,11 @@
     "O#O",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:sand",
     "O": "minecraft:suspicious_sand",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:camel_spawn_egg"
   }

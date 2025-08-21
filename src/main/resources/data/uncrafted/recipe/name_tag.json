@@ -5,12 +5,10 @@
     " X ",
     "X  "
   ],
-  
   "key": {
     "#": "minecraft:tripwire_hook",
     "X": "minecraft:paper"
   },
-  
   "result": {
     "id": "minecraft:name_tag"
   }

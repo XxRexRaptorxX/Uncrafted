@@ -5,16 +5,12 @@
     "XXX",
     "XXX"
   ],
-  
   "key": {
     "O": "minecraft:ender_eye",
     "#": "minecraft:ender_pearl",
     "X": "minecraft:end_stone"
-      
   },
-  
   "result": {
     "id": "minecraft:end_portal_frame"
-    
   }
 }

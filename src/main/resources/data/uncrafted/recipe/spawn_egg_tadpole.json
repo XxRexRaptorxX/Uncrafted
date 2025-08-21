@@ -6,12 +6,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:slime_ball",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:tadpole_spawn_egg"
   }

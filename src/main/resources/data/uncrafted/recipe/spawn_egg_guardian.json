@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:prismarine_shard",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:guardian_spawn_egg"
   }

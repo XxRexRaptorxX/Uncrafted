@@ -5,11 +5,9 @@
     "XXX",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:yellow_wool"
   },
-  
   "result": {
     "id": "minecraft:sponge"
   }

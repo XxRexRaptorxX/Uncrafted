@@ -6,13 +6,11 @@
     "O#O",
     " O "
   ],
-  
   "key": {
     "X": "minecraft:carved_pumpkin",
     "O": "minecraft:iron_block",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:iron_golem_spawn_egg"
   }

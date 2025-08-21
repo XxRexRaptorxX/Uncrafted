@@ -5,13 +5,11 @@
     "#O#",
     "XXX"
   ],
-  
   "key": {
     "X": "#c:ingots/netherite",
     "#": "minecraft:heavy_core",
     "O": "#c:nether_stars"
   },
-  
   "result": {
     "id": "minecraft:spawner"
   }

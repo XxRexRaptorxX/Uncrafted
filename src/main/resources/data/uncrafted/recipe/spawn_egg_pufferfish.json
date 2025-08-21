@@ -6,12 +6,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:pufferfish",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:pufferfish_spawn_egg"
   }

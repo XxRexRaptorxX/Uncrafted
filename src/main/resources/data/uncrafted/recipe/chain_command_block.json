@@ -5,7 +5,6 @@
     "minecraft:command_block",
     "#c:dyes/green"
   ],
-
   "result": {
     "id": "minecraft:chain_command_block"
   }

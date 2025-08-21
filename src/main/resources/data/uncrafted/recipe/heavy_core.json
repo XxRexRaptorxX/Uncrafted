@@ -6,13 +6,11 @@
     "I#I",
     "XIX"
   ],
-  
   "key": {
     "X": "#c:ingots/netherite",
     "I": "minecraft:dripstone_block",
     "#": "#c:nether_stars"
   },
-  
   "result": {
     "id": "minecraft:heavy_core"
   }

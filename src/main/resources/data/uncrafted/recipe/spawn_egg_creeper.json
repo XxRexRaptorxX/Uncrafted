@@ -6,12 +6,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:gunpowder",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:creeper_spawn_egg"
   }

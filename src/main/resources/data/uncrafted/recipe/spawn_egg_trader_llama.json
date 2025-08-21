@@ -6,13 +6,11 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:sand",
     "O": "#minecraft:wool_carpets",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:trader_llama_spawn_egg"
   }

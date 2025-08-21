@@ -4,11 +4,9 @@
     "##",
     "##"
   ],
-  
   "key": {
     "#": "minecraft:structure_void"
   },
-  
   "result": {
     "id": "minecraft:barrier"
   }

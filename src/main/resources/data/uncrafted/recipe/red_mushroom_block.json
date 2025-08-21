@@ -5,11 +5,9 @@
     "XXX",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:red_mushroom"
   },
-  
   "result": {
     "id": "minecraft:red_mushroom_block"
   }

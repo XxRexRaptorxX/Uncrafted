@@ -4,7 +4,6 @@
     "minecraft:zombie_spawn_egg",
     "minecraft:diamond_sword"
   ],
-
   "result": {
     "id": "minecraft:zombie_head"
   }

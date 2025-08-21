@@ -5,12 +5,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:snowball",
     "#": "minecraft:water_bucket"
   },
-  
   "result": {
     "id": "minecraft:ice"
   }

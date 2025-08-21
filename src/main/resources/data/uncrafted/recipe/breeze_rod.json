@@ -5,7 +5,6 @@
     "#c:rods/blaze",
     "minecraft:wind_charge"
   ],
-
   "result": {
     "id": "minecraft:breeze_rod"
   }

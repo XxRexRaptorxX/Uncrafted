@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/light_gray",
-      "#minecraft:planks"
+    "#c:dyes/light_gray",
+    "#minecraft:planks"
   ],
-
   "result": {
     "id": "minecraft:birch_planks"
   }

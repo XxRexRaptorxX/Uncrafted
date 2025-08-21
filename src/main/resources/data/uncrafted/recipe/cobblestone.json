@@ -3,12 +3,10 @@
   "pattern": [
     "X O"
   ],
-  
   "key": {
     "X": "minecraft:water_bucket",
     "O": "minecraft:lava_bucket"
   },
-  
   "result": {
     "id": "minecraft:cobblestone"
   }

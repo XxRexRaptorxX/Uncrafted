@@ -3,7 +3,6 @@
   "ingredients": [
     "minecraft:bookshelf"
   ],
-
   "result": {
     "id": "minecraft:book",
     "count": 3

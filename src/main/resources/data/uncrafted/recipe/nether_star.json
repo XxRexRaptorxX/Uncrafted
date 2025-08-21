@@ -5,12 +5,10 @@
     "#X#",
     " # "
   ],
-  
   "key": {
     "#": "#c:storage_blocks/netherite",
     "X": "minecraft:end_crystal"
   },
-  
   "result": {
     "id": "minecraft:nether_star"
   }

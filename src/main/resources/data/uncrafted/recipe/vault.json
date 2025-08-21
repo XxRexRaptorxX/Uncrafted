@@ -5,14 +5,12 @@
     "-X-",
     "#I#"
   ],
-  
   "key": {
     "X": "minecraft:trial_spawner",
     "I": "minecraft:dropper",
     "#": "#c:ingots/iron",
     "-": "minecraft:iron_bars"
   },
-  
   "result": {
     "id": "minecraft:vault"
   }

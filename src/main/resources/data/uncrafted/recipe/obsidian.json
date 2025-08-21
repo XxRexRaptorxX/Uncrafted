@@ -5,12 +5,10 @@
     " ",
     "X"
   ],
-  
   "key": {
     "O": "minecraft:water_bucket",
     "X": "minecraft:lava_bucket"
   },
-  
   "result": {
     "id": "minecraft:obsidian"
   }

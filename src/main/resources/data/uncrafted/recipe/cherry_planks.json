@@ -1,10 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-      "#c:dyes/pink",
-      "#minecraft:planks"
+    "#c:dyes/pink",
+    "#minecraft:planks"
   ],
-
   "result": {
     "id": "minecraft:cherry_planks"
   }

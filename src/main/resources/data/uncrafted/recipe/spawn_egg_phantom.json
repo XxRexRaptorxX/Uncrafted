@@ -6,12 +6,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:phantom_membrane",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:phantom_spawn_egg"
   }

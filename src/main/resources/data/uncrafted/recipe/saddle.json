@@ -3,12 +3,10 @@
   "pattern": [
     "X#X"
   ],
-  
   "key": {
     "X": "minecraft:leather",
     "#": "minecraft:leather_chestplate"
   },
-  
   "result": {
     "id": "minecraft:saddle"
   }

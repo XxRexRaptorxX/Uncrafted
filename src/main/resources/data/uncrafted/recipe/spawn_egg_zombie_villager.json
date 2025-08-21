@@ -6,13 +6,11 @@
     "O#O",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:emerald",
     "O": "minecraft:rotten_flesh",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:zombie_villager_spawn_egg"
   }

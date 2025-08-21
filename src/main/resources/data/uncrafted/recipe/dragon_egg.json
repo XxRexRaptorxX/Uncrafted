@@ -5,12 +5,10 @@
     "X#X",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:obsidian",
     "#": "minecraft:end_crystal"
   },
-  
   "result": {
     "id": "minecraft:dragon_egg"
   }

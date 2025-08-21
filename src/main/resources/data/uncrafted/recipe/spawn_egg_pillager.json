@@ -6,13 +6,11 @@
     "O#O",
     "OXO"
   ],
-  
   "key": {
     "X": "minecraft:emerald",
     "O": "minecraft:crossbow",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:pillager_spawn_egg"
   }

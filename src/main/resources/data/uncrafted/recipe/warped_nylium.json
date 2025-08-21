@@ -5,12 +5,10 @@
     "XXX",
     "XXX"
   ],
-  
   "key": {
     "X": "minecraft:netherrack",
     "#": "minecraft:warped_roots"
   },
-  
   "result": {
     "id": "minecraft:warped_nylium"
   }

@@ -6,12 +6,10 @@
     "X#X",
     " X "
   ],
-  
   "key": {
     "X": "minecraft:emerald",
     "#": "minecraft:ghast_tear"
   },
-  
   "result": {
     "id": "minecraft:villager_spawn_egg"
   }
