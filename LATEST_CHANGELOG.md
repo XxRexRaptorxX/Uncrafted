@@ -3,6 +3,7 @@
 
 * alternative recipes of some spawn eggs added ([281f8ab](https://github.com/XxRexRaptorxX/Uncrafted/commit/281f8ab53ec5c54bcf1c8ac22ea2b2c71b1e3c67))
 * bundle recipe changed to match vanilla ([1420d5c](https://github.com/XxRexRaptorxX/Uncrafted/commit/1420d5c7afef78e5ad3774a2dd8f59e33ccc0bf2))
+* command block recipe changed ([ac7f2bc](https://github.com/XxRexRaptorxX/Uncrafted/commit/ac7f2bc7d6360a2159265cb4ba9c7ad8c29ab7f4))
 * command block recipe changed ([7cff1b1](https://github.com/XxRexRaptorxX/Uncrafted/commit/7cff1b1337334fa8327c5d7addbcd4d7fd6f2441))
 * debug stick recipe is now much harder ([b56b624](https://github.com/XxRexRaptorxX/Uncrafted/commit/b56b62451a17c2161c8a28a4403d9d3693e1dd16))
 * disc fragment recipe added ([f9a1f28](https://github.com/XxRexRaptorxX/Uncrafted/commit/f9a1f287c73e9805e3c0cf9210a01139163d2d1a))
