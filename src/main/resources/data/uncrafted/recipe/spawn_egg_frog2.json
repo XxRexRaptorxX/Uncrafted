@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spawn_eggs",
+  "ingredients": [
+    "minecraft:frogspawn",
+    "minecraft:ghast_tear"
+  ],
+  "result": {
+    "id": "minecraft:frog_spawn_egg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spawn_eggs",
+  "ingredients": [
+    "minecraft:turtle_egg",
+    "minecraft:ghast_tear"
+  ],
+  "result": {
+    "id": "minecraft:turtle_spawn_egg"
+  }
+}
