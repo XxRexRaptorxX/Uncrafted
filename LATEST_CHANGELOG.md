@@ -5,6 +5,7 @@
 * bundle recipe changed to match vanilla ([1420d5c](https://github.com/XxRexRaptorxX/Uncrafted/commit/1420d5c7afef78e5ad3774a2dd8f59e33ccc0bf2))
 * command block recipe changed ([7cff1b1](https://github.com/XxRexRaptorxX/Uncrafted/commit/7cff1b1337334fa8327c5d7addbcd4d7fd6f2441))
 * debug stick recipe is now much harder ([b56b624](https://github.com/XxRexRaptorxX/Uncrafted/commit/b56b62451a17c2161c8a28a4403d9d3693e1dd16))
+* disc fragment recipe added ([f9a1f28](https://github.com/XxRexRaptorxX/Uncrafted/commit/f9a1f287c73e9805e3c0cf9210a01139163d2d1a))
 * dragon egg recipe is now a bit harder ([cedbce5](https://github.com/XxRexRaptorxX/Uncrafted/commit/cedbce557c4733fe11f7447743e133f2e1d37114))
 * glow ink sac recipe changed to make it harder ([379b988](https://github.com/XxRexRaptorxX/Uncrafted/commit/379b988468dee9521ea24cf72eb7fc44d83baf8c))
 * knowledge book recipe improved ([6d4c0c4](https://github.com/XxRexRaptorxX/Uncrafted/commit/6d4c0c4946ecc5884278b7b753710896662d7519))
