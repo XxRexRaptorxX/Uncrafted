@@ -20,9 +20,9 @@ import xxrexraptorxx.magmacore.main.ModRegistry;
 public class Uncrafted {
 
     public Uncrafted(IEventBus bus) {
-        ModRegistry.register(References.MODID, References.NAME, References.URL);;
+        ModRegistry.register(References.MODID, References.NAME, References.URL);
+        ;
     }
-
 
     @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
     public static class ModBus {
