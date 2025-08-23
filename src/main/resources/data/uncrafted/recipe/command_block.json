@@ -8,8 +8,8 @@
   ],
   "key": {
     "#": "minecraft:redstone_block",
-    "O": "minecraft:heavy_core",
-    "I": "minecraft:beacon"
+    "I": "minecraft:heavy_core",
+    "O": "minecraft:beacon"
   },
   "result": {
     "id": "minecraft:command_block"
