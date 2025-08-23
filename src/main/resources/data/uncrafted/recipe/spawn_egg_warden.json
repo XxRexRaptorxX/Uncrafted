@@ -8,8 +8,8 @@
   ],
   "key": {
     "O": "minecraft:sculk_shrieker",
-    "X": "minecraft:sculk_sensor",
-    "#": "minecraft:ghast_tear"
+    "#": "minecraft:sculk_sensor",
+    "X": "minecraft:ghast_tear"
   },
   "result": {
     "id": "minecraft:warden_spawn_egg"
