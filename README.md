@@ -17,6 +17,7 @@ Uncrafted is a mod which adds many new recipes for already existing items and bl
 
 - no new blocks or items were added. Only crafting and smelting recipes for vanilla Minecraft.
 - currently over 200 new crafting and smelting recipes!
+- if you don't want a recipe category, simply use the pre-made packs with the /datapack commands. (e.g ```/datapack enable "mod/uncrafted:packs/no_admin_item_recipes"``` disables command block recipes).
 - if you need a mod to break placed bedrock, command blocks, etc. use my other mod [Bedrock Miner](https://www.curseforge.com/minecraft/mc-mods/bedrock-miner)!
 
 
