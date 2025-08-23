@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spawn_eggs",
+  "pattern": [
+    "OXO",
+    "X#X",
+    "OXO"
+  ],
+  "key": {
+    "O": "minecraft:sculk_shrieker",
+    "X": "minecraft:sculk_sensor",
+    "#": "minecraft:ghast_tear"
+  },
+  "result": {
+    "id": "minecraft:warden_spawn_egg"
+  }
+}
