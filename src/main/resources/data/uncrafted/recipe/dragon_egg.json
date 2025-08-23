@@ -3,11 +3,12 @@
   "pattern": [
     " X ",
     "X#X",
-    "XXX"
+    "XIX"
   ],
   "key": {
     "X": "minecraft:obsidian",
-    "#": "minecraft:end_crystal"
+    "#": "minecraft:end_crystal",
+    "I": "minecraft:crying_obsidian"
   },
   "result": {
     "id": "minecraft:dragon_egg"
