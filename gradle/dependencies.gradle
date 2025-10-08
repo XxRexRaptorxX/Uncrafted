@@ -43,6 +43,7 @@ dependencies {
     //implementation "curse.maven:MagmaCore-1267885:${magma_core_version}"
     // JEI
     compileOnly("mezz.jei:jei-1.21.9-neoforge-api:${jei_version}")
+    //runtimeOnly("mezz.jei:jei-1.21.9-neoforge:${jei_version}")
     // REI
     compileOnly "me.shedaniel:RoughlyEnoughItems-api-neoforge:${rei_version}"
     compileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-neoforge:${rei_version}"
