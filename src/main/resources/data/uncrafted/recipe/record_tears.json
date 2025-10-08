@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "record",
+  "pattern": [
+    " X ",
+    "XOX",
+    " X "
+  ],
+  "key": {
+    "X": "minecraft:white_terracotta",
+    "O": "minecraft:light_blue_terracotta"
+  },
+  "result": {
+    "id": "minecraft:music_disc_tears"
+  }
+}
