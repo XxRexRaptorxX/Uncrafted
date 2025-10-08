@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "I": "minecraft:lightning_rod",
+    "X": "minecraft:carved_pumpkin",
+    "#": "#c:ingots/copper"
+  },
+  "result": {
+    "id": "minecraft:copper_golem_statue"
+  }
+}
