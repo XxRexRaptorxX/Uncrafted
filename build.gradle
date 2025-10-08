@@ -3,7 +3,7 @@ import net.darkhax.curseforgegradle.TaskPublishCurseForge
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.78'
+    id 'net.neoforged.moddev' version '2.0.113'
     id 'idea'
     id 'com.modrinth.minotaur' version '2.+'
     id 'net.darkhax.curseforgegradle' version '1.1.26'
@@ -12,20 +12,20 @@ plugins {
 
 apply from: "$rootDir/gradle/dependencies.gradle"
 apply from: "$rootDir/gradle/changelogs.gradle"
-apply from: "$rootDir/gradle/versioning.gradle"
 apply from: "$rootDir/gradle/publishing.gradle"
 apply from: "$rootDir/gradle/building.gradle"
+apply from: "$rootDir/gradle/initialization.gradle"
 apply from: "$rootDir/gradle/debugging.gradle"
 
 // ========================================
 // PROJECT CONFIGURATION
 // ========================================
 
-version = mod_version
-group = mod_group_id
+version = "${mod_version}"
+group = "${mod_group_id}"
 
 base {
-    archivesName = mod_id
+    archivesName = "${mod_id}"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(java_version)
@@ -128,15 +128,14 @@ configurations {
 // ========================================
 // MOD METADATA GENERATION
 // ========================================
-
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [
             minecraft_version      : minecraft_version,
             minecraft_version_range: minecraft_version_range,
             neo_version            : neo_version,
             neo_version_range      : neo_version_range,
-            loader_version_range   : loader_version_range,
             magmacore_version_range: magmacore_version_range,
+            loader_version_range   : loader_version_range,
             pack_format_number     : pack_format_number,
             mod_id                 : mod_id,
             mod_name               : mod_name,
@@ -172,6 +171,7 @@ idea {
     }
 }
 
+
 // ========================================
 // MAVEN PUBLISHING
 // ========================================
@@ -180,6 +180,27 @@ publishing {
     publications {
         register('mavenJava', MavenPublication) {
             from components.java
+
+            groupId = project.group
+            artifactId = project.base.archivesName.get()
+            version = project.version
+
+            pom {
+                name = mod_name
+                description = "${mod_name} - Minecraft mod"
+
+                licenses {
+                    license {
+                        name = mod_license
+                    }
+                }
+
+                developers {
+                    developer {
+                        name = mod_authors
+                    }
+                }
+            }
         }
     }
     repositories {
@@ -188,6 +209,7 @@ publishing {
         }
     }
 }
+
 
 // ========================================
 // PLATFORM PUBLISHING
@@ -201,8 +223,9 @@ afterEvaluate {
     modrinth {
         token = System.getenv("MODRINTH_TOKEN") ?: project.findProperty("modrinthToken")?.toString()
         projectId = mr_id
+        versionName = "v.${mod_version}-${mod_loader}"
+        versionNumber = "v.${mod_version}"
         versionType = release_type
-        versionName = "v.${mod_version}"
         uploadFile = jar
         loaders = ["neoforge"]
         gameVersions = parsedGameVersions
@@ -210,6 +233,8 @@ afterEvaluate {
         failSilently = true
         syncBodyFrom = rootProject.file("README.md").text
         dependencies {
+            // The scope can be `required`, `optional`, `incompatible`, or `embedded`
+            // The type can either be `project` or `version`
             required.project "magma-core"
             optional.project "jei"
             optional.project "rei"
@@ -219,7 +244,7 @@ afterEvaluate {
 
 
 // CurseForge Configuration
-task publishCurseForge(type: TaskPublishCurseForge) {
+tasks.register('publishCurseForge', TaskPublishCurseForge) {
     def tokens = validateTokens()
     apiToken = tokens[1] // CurseForge token
 
@@ -239,55 +264,56 @@ task publishCurseForge(type: TaskPublishCurseForge) {
     }
 }
 
+
 // Changelog reading
-String readLatestChangelog() {
-    //1. from workspace
-    def file = rootProject.file("LATEST_CHANGELOG.md")
-    if (file.exists()) {
+    String readLatestChangelog() {
+        //1. from workspace
+        def file = rootProject.file("LATEST_CHANGELOG.md")
+        if (file.exists()) {
+            try {
+                def text = file.getText('UTF-8').trim()
+                if (text) {
+                    logger.lifecycle("Using changelog from file: ${file}")
+                    return text
+                } else {
+                    logger.lifecycle("LATEST_CHANGELOG.md exists but is empty.")
+                }
+            } catch (Exception e) {
+                logger.warn("Error from reading LATEST_CHANGELOG.md: ${e.message}")
+            }
+        } else {
+            logger.lifecycle("LATEST_CHANGELOG.md not found in project root.")
+        }
+
+        //2. from Git-HEAD
         try {
-            def text = file.getText('UTF-8').trim()
-            if (text) {
-                logger.lifecycle("Using changelog from file: ${file}")
-                return text
+            ByteArrayOutputStream stdout = new ByteArrayOutputStream()
+            exec {
+                commandLine 'git', 'show', 'HEAD:LATEST_CHANGELOG.md'
+                standardOutput = stdout
+                // don't fail build if git command fails
+                ignoreExitValue = true
+            }
+            def gitText = stdout.toString('UTF-8').trim()
+            if (gitText) {
+                logger.lifecycle("Using changelog from git HEAD:LATEST_CHANGELOG.md")
+                return gitText
             } else {
-                logger.lifecycle("LATEST_CHANGELOG.md exists but is empty.")
+                logger.lifecycle("No LATEST_CHANGELOG.md content found at git HEAD.")
             }
         } catch (Exception e) {
-            logger.warn("Error from reading LATEST_CHANGELOG.md: ${e.message}")
+            logger.warn("Error from executing 'git show': ${e.message}")
         }
-    } else {
-        logger.lifecycle("LATEST_CHANGELOG.md not found in project root.")
-    }
 
-    //2. from Git-HEAD
-    try {
-        ByteArrayOutputStream stdout = new ByteArrayOutputStream()
-        exec {
-            commandLine 'git', 'show', 'HEAD:LATEST_CHANGELOG.md'
-            standardOutput = stdout
-            // don't fail build if git command fails
-            ignoreExitValue = true
+        // 3. fallback
+        try {
+            def generated = generateLatestChangelog()
+            logger.lifecycle("Using generated changelog (fallback).")
+            return generated
+        } catch (Exception e) {
+            logger.warn("generateLatestChangelog() failed: ${e.message}")
         }
-        def gitText = stdout.toString('UTF-8').trim()
-        if (gitText) {
-            logger.lifecycle("Using changelog from git HEAD:LATEST_CHANGELOG.md")
-            return gitText
-        } else {
-            logger.lifecycle("No LATEST_CHANGELOG.md content found at git HEAD.")
-        }
-    } catch (Exception e) {
-        logger.warn("Error from executing 'git show': ${e.message}")
-    }
 
-    // 3. fallback
-    try {
-        def generated = generateLatestChangelog()
-        logger.lifecycle("Using generated changelog (fallback).")
-        return generated
-    } catch (Exception e) {
-        logger.warn("generateLatestChangelog() failed: ${e.message}")
+        logger.lifecycle("No changelog found — returning empty string.")
+        return ""
     }
-
-    logger.lifecycle("No changelog found — returning empty string!")
-    return ""
-}
