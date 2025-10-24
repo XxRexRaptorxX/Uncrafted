@@ -23,7 +23,7 @@ public class Uncrafted {
         ModRegistry.register(References.MODID, References.NAME, References.URL);
     }
 
-    @EventBusSubscriber
+    @EventBusSubscriber(modid = References.MODID)
     public static class ModBus {
 
         @SubscribeEvent

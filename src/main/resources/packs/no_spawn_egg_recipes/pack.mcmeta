@@ -1,6 +1,9 @@
 {
     "pack": {
         "description": "Disables the spawn egg recipes!",
-        "pack_format": 55
+        "max_format": [
+            999999
+        ],
+        "min_format": 55
     }
 }
